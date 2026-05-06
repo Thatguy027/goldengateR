@@ -1,4 +1,5 @@
 export(golden_gate_assemble)
+export(new_part)
 export(assemble_interactive)
 export(assemble_from_table)
 export(read_part)
