@@ -1,4 +1,13 @@
-name	vec	1	2	3	3a	3b	234	4	4a	4b	5	6	7	8	8a	8b	678
-Conprime_GFPdrop_NAT_HO_KAN_HO	pYTK090	pYTK008						L24_correct_gfp_dropout					pYTK073	pYTK078	L27_correct_HO_hom_5prime			L28_correct_HO_hom_3prime
-pYTK096_rebuilt	pYTK090	pYTK008						pYTK047					pYTK073	pYTK074	pYTK086			pYTK092
-sepruby_cassette	pYTK090	pYTK004		l52-sepmruby								pYTK072	pYTK077	pYTK081
+name	vec	1	2	3	3a	3b	234	4	4a	4b	5	6	7	8	8a	8b	678	
+sepruby_cassette	pYTK083	pYTK004	pYTK011	l52-sepmruby				pYTK054			pYTK072	pYTK077	pYTK081					
+XI_cassette	pYTK083	pYTK002	pYTK009	pYTK_T3_CpXI				l6_cyc1_type4			pYTK067	pYTK077	pYTK081					
+XKS1_cassette	pYTK083	pYTK003	pYTK011	pYTK_T3_XKS1				pYTK053			pYTK068	pYTK077	pYTK081					
+Gal2-N376F_XI	pYTK083	pYTK004	pYTK013	gal2_part				pYTK055			pYTK072	pYTK077	pYTK081					
+xyl1_cassette	pYTK083	pYTK002	pYTK009	pYTK_T3_XYL1_K270R				l6_cyc1_type4			pYTK067	pYTK077	pYTK081					
+xyl2_cassette	pYTK083	pYTK003	pYTK013	pYTK_T3_XYL2				pYTK053			pYTK068	pYTK077	pYTK081					
+xks1_cassette_xyl	pYTK083	pYTK004	pYTK011	pYTK_T3_XKS1				pYTK055			pYTK069	pYTK077	pYTK081					
+gal2_cassette_xyl	pYTK083	pYTK005	pYTK010	gal2_part				pYTK056			pYTK072	pYTK077	pYTK081					
+tal1_cassette	pYTK083	pYTK002	pYTK013	pYTK_T3_TAL1				pYTK055			pYTK072	pYTK077	pYTK081					
+tkl1_cassette	pYTK083	pYTK003	pYTK010	pYTK_T3_TKL1				pYTK056			pYTK072	pYTK077	pYTK081					
+rpe1_cassette	pYTK083	pYTK004	pYTK012	pYTK_T3_RPE1				pYTK054			pYTK072	pYTK077	pYTK081					
+rki1_cassette	pYTK083	pYTK005	pYTK014	pYTK_T3_RKI1				pYTK052			pYTK072	pYTK077	pYTK081					
