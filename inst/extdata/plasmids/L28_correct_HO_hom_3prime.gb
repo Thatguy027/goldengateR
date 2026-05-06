@@ -1,0 +1,85 @@
+LOCUS       L28_HO_homology_Left_Ty 1966 bp ds-DNA     circular     06-MAR-2024
+DEFINITION  .
+COMMENT     Imported using the Genbank importer. File name: L28_HOleft_2_04.gbk
+            Annotated with pLannotate v1.2.1
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+     misc_feature    705..1003
+                     /label="HO homology left"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     terminator      complement(1021..1055)
+                     /label="lambda t0 terminator"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+     CDS             complement(1129..1785)
+                     /label="cat"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="pLannotate"
+                     /database="swissprot"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="CDS"
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(1786..1883)
+                     /label="cat promoter"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="95.1"
+                     /fragment="False"
+                     /other="promoter"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcac aatctttgta tccttaataa
+      721 aataaaattc acaagtatca caattaaaat atttgttttt ctttcgcgta aatatttagc
+      781 ttgataactg ttactgatat gtctgaggaa agttgatcaa gacccaataa taatctatat
+      841 actggttgaa acaaatcagt gccggtaacg ctttttgtat cttgagatgg cgtatttcta
+      901 ctccagcatt ctagttaaga aaaagtctaa aaatggtttt tttcatccaa aatattaaat
+      961 tttactttta ttacatacaa ctttttaaac taatatacac attcccttga gaccagacca
+     1021 ataaaaaacg cccggcggca accgagcgtt ctgaacaaat ccagatggag ttctgaggtc
+     1081 attactggat ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg
+     1141 ccactcatcg cagtactgtt gtaattcatt aagcattctg ccgacatgga agccatcaca
+     1201 aacggcatga tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt gcgtataata
+     1261 tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa
+     1321 actggtgaaa ctcacccagg gattggctga aacgaaaaac atattctcaa taaacccttt
+     1381 agggaaatag gccaggtttt caccgtaaca cgccacatct tgcgaatata tgtgtagaaa
+     1441 ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa aacgtttcag tttgctcatg
+     1501 gaaaacggtg taacaagggt gaacactatc ccatatcacc agctcaccgt ctttcattgc
+     1561 catacgaaat tccggatgag cattcatcag gcgggcaaga atgtgaataa aggccggata
+     1621 aaacttgtgc ttatttttct ttacggtctt taaaaaggcc gtaatatcca gctgaacggt
+     1681 ctggttatag gtacattgag caactgactg aaatgcctca aaatgttctt tacgatgcca
+     1741 ttgggatata tcaacggtgg tatatccagt gatttttttc tccattttag cttccttagc
+     1801 tcctgaaaat ctcgataact caaaaaatac gcccggtagt gatcttattt cattatggtg
+     1861 aaagttggaa cctcttacgt gcccgatcaa tcatgaccaa aatcccttaa cgtgagtttt
+     1921 cgttccactg agcgtcagac cccgtagaaa agatcaaagg atcttc
+//

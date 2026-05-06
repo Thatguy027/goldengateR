@@ -1,0 +1,21 @@
+Package: goldengateR
+Type: Package
+Title: In Silico Golden Gate Assembly with BsaI and BsmBI
+Version: 0.1.0
+Authors@R: person("Stefan", "Lab", email = "you@example.com", role = c("aut", "cre"))
+Description: Simulates Golden Gate assembly of plasmids and PCR products using
+    the Type IIS restriction enzymes BsaI and BsmBI. Reads GenBank or FASTA
+    inputs, digests each input at all enzyme sites, attempts to ligate the
+    resulting fragments into a single circular product via 4 bp sticky-end
+    matching, and writes the assembled product as an annotated GenBank file.
+    Returns the unique circular product if exactly one is possible; errors
+    otherwise. Designed for MoClo / Yeast Toolkit / MYT workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports:
+    methods
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1

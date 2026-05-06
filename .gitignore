@@ -1,0 +1,7 @@
+.DS_Store
+*.Rhistory
+.Rdata
+*.Rproj.user/
+*.tar.gz
+inst/extdata/.DS_Store
+inst/.DS_Store

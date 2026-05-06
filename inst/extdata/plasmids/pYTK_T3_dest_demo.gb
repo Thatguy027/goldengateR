@@ -1,0 +1,58 @@
+LOCUS       pYTK_T3_dest_dem 2324 bp    DNA     circular SYN 06-May-2026
+DEFINITION  pYTK_T3_dest_demo assembled by goldengateR
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+FEATURES             Location/Qualifiers
+     CDS             1..800
+                     /label="CamR"
+                     /product="chloramphenicol acetyltransferase"
+     rep_origin      1000..1600
+                     /label="ColE1"
+                     /note="high-copy origin"
+     misc_feature    26..1545
+                     /label="GFP_dropout"
+                     /note="removed during Type 3 part construction"
+ORIGIN
+        1 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+       61 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      121 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      181 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      241 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      301 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      361 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      421 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      481 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      541 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      601 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      661 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      721 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      781 acgtacgtac gtacgtacgt ggtctcaaat gacacacaca cacacacaca cacacacaca
+      841 cacacacaca cacacacaca cacacacaca cacacacaca cacacacaca catcctgaga
+      901 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+      961 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1021 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1081 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1141 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1201 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1261 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1321 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1381 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1441 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1501 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1561 ccaaggccaa ggccaaggcc aaggccaagg ccaaggccaa ggccaaggcc aaggccaagg
+     1621 ccggtctcat atgacacaca cacacacaca cacacacaca cacacacaca cacacacaca
+     1681 cacacacaca cacacacaca cacacacaca cacccattga gacccgatcg atcgatcgat
+     1741 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     1801 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     1861 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     1921 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     1981 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     2041 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     2101 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     2161 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     2221 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat
+     2281 cgatcgatcg atcgatcgat cgatcgatcg atcgatcgat cgat
+//
