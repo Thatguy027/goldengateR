@@ -50,7 +50,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#FF8EFF"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0} width 5 offset 0"
      misc_feature    3721..3863
-                     /label="ConE"
+                     /label="Con3"
                      /ApEinfo_fwdcolor="#FFFD6C"
                      /ApEinfo_revcolor="#FFFD6C"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0} width 5 offset 0"
@@ -95,7 +95,7 @@ FEATURES             Location/Qualifiers
                      /label="pYTK054"
                      /note="fragment from goldengateR assembly"
      misc_feature    3706..3878
-                     /label="pYTK072"
+                     /label="pYTK069"
                      /note="fragment from goldengateR assembly"
      misc_feature    3879..5277
                      /label="pYTK077"
@@ -165,10 +165,10 @@ ORIGIN
      3481 attgaattga attgaaatcg atagatcaat ttttttcttt tctctttccc catcctttac
      3541 gctaaaataa tagtttattt tattttttga atatttttta tttatatacg tatatataga
      3601 ctattattta tcttttaatg attattaaga tttttattaa aaaaaaattc gctcctcttt
-     3661 taatgccttt atgcagtttt tttttcccat tcgatatttc tatgtgctga gcatgagacg
-     3721 gaaatctgct cgtcagtggt gctcacactg acgaatcatg tacagatcat accgatgact
-     3781 gcctggcgac tcacaactaa gcaagacagc cggaaccagc gccggcgaac accactgcat
-     3841 atatggcata tcacaacagt ccaactagtg cactgcagta cagtttagct tgcctcgtcc
+     3661 taatgccttt atgcagtttt tttttcccat tcgatatttc tatgtgctgg ttctgagacg
+     3721 gcagacctag accacatgag gctgatgtag gacagccacc agtggcagct aatcaacacc
+     3781 gcaagatgcc gatgcacgct catatcatcg tcgtcagcct ggtagccatt cgacatacgg
+     3841 atcagggaac tcgaacccag tacactagtg cactgcagta cagtttagct tgcctcgtcc
      3901 ccgccgggtc acccggccag cgacatggag gcccagaata ccctccttga cagtcttgac
      3961 gtgcgcagct caggggcatg atgtgactgt cgcccgtaca tttagcccat acatccccat
      4021 gtataatcat ttgcatccat acattttgat ggccgcacgg cgcgaagcaa aaattacggc

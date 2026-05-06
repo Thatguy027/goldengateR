@@ -50,7 +50,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="#FF8EFF"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0} width 5 offset 0"
      misc_feature    5070..5212
-                     /label="ConE"
+                     /label="Con2"
                      /ApEinfo_fwdcolor="#FFFD6C"
                      /ApEinfo_revcolor="#FFFD6C"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0} width 5 offset 0"
@@ -95,7 +95,7 @@ FEATURES             Location/Qualifiers
                      /label="pYTK056"
                      /note="fragment from goldengateR assembly"
      misc_feature    5055..5227
-                     /label="pYTK072"
+                     /label="pYTK068"
                      /note="fragment from goldengateR assembly"
      misc_feature    5228..6626
                      /label="pYTK077"
@@ -188,9 +188,9 @@ ORIGIN
      4861 ttttttgaat atacataaat actaccgttt ttctgctaga ttttgtgatg acgtaaataa
      4921 gtacatatta ctttttaagc caagacaaga ttaagcatta actttaccct tttctttcta
      4981 agtttcaata ttagttatca ctgtttaaaa gttatggcga gaacgtcggc ggttaaaata
-     5041 tattaccctg aacggctgag catgagacgg aaatctgctc gtcagtggtg ctcacactga
-     5101 cgaatcatgt acagatcata ccgatgactg cctggcgact cacaactaag caagacagcc
-     5161 ggaaccagcg ccggcgaaca ccactgcata tatggcatat cacaacagtc caactagtgc
+     5041 tattaccctg aacggctgga tgtgagacga taaatcgcag ccaagtgagt gaatagatga
+     5101 cgcaccacgg tcagacacgg ccacatcgta tctcacagga gcaagcgcga taggagcact
+     5161 cacacatagt acggtgatcc gctgactcct ttgcccaaat aagacgtgag ccactagtgc
      5221 actgcagtac agtttagctt gcctcgtccc cgccgggtca cccggccagc gacatggagg
      5281 cccagaatac cctccttgac agtcttgacg tgcgcagctc aggggcatga tgtgactgtc
      5341 gcccgtacat ttagcccata catccccatg tataatcatt tgcatccata cattttgatg
