@@ -27,35 +27,20 @@
 # =============================================================================
 # Configuration  --- edit these to match your setup
 # =============================================================================
-GOLDENGATE_PKG_DIR <- "~/goldengateR"        # directory containing R/, DESCRIPTION, etc.
 DESTINATION_PLASMID <- "pYTK_T3_dest_demo"   # name of plasmid in the bundled library
                                              # (or in your set_plasmid_dir() directory)
-USER_PLASMID_DIR   <- NULL                   # optional: set to a path with your
-                                             # personal lab plasmid collection
+USER_PLASMID_DIR   <- NULL                   # optional: path to your personal plasmid dir
 ENZYME             <- "BsaI"
 
 # =============================================================================
 # Setup
 # =============================================================================
+library(goldengateR)
 
 # Allow CLI overrides:  Rscript build_entry_plasmids.R [tsv] [outdir]
 args <- commandArgs(trailingOnly = TRUE)
 tsv_path   <- if (length(args) >= 1) args[1] else "gg_parts_summary.tsv"
 output_dir <- if (length(args) >= 2) args[2] else "entry_plasmids"
-
-GOLDENGATE_PKG_DIR <- path.expand(GOLDENGATE_PKG_DIR)
-
-# Load the package (sourcing R/ files; swap for library(goldengateR) if installed)
-pkg_R <- file.path(GOLDENGATE_PKG_DIR, "R")
-if (!dir.exists(pkg_R)) {
-  stop("goldengateR R/ directory not found at: ", pkg_R,
-       "\n  Edit GOLDENGATE_PKG_DIR at the top of this script.")
-}
-for (f in list.files(pkg_R, pattern = "\\.R$", full.names = TRUE)) source(f)
-
-# Tell the dev-mode plasmid search where the package lives, so bundled
-# plasmids work regardless of the current working directory.
-options(goldengateR.pkg_dir = GOLDENGATE_PKG_DIR)
 
 # Optionally point at a user plasmid collection
 if (!is.null(USER_PLASMID_DIR) && nzchar(USER_PLASMID_DIR)) {
