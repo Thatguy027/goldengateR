@@ -1,0 +1,83 @@
+LOCUS       L6_CYC1_type4           1856 bp ds-DNA     circular     06-NOV-2023
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+COMMENT     Imported using the Genbank importer. File name: L6_CYC1_1_07.gbk
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+     terminator      704..893
+                     /label="CYC1 terminator"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+     terminator      complement(907..995)
+                     /label="lambda t0 terminator"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="94.68085106382979"
+                     /fragment="True"
+                     /other="terminator"
+     misc_feature    complement(1016..1675)
+                     /label="CmR"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+     promoter        complement(1676..1773)
+                     /label="cat promoter"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="96.07843137254902"
+                     /fragment="False"
+                     /other="promoter"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa tccatccgct ctaaccgaaa
+      721 aggaaggagt tagacaacct gaagtctagg tccctattta tttttttata gttatgttag
+      781 tattaagaac gttatttata tttcaaattt ttcttttttt tctgtacaga cgcgtgtacg
+      841 catgtaacat tatactgaaa accttgcttg agaaggtttt gggacgctcg aaggctgtga
+      901 gaccagacca ataaaaaacg cccggcggca accgagcgtt ctgaacaaat ccagatggag
+      961 ttctgaggtc attactggat ctatcaacag gagtccaagc gagctcgata tcaaattacg
+     1021 ccccgccctg ccactcatcg cagtactgtt gtaattcatt aagcattctg ccgacatgga
+     1081 agccatcaca aacggcatga tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt
+     1141 gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt
+     1201 ttaaatcaaa actggtgaaa ctcacccagg gattggctga aacgaaaaac atattctcaa
+     1261 taaacccttt agggaaatag gccaggtttt caccgtaaca cgccacatct tgcgaatata
+     1321 tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa aacgtttcag
+     1381 tttgctcatg gaaaacggtg taacaagggt gaacactatc ccatatcacc agctcaccgt
+     1441 ctttcattgc catacgaaat tccggatgag cattcatcag gcgggcaaga atgtgaataa
+     1501 aggccggata aaacttgtgc ttatttttct ttacggtctt taaaaaggcc gtaatatcca
+     1561 gctgaacggt ctggttatag gtacattgag caactgactg aaatgcctca aaatgttctt
+     1621 tacgatgcca ttgggatata tcaacggtgg tatatccagt gatttttttc tccattttag
+     1681 cttccttagc tcctgaaaat ctcgataact caaaaaatac gcccggtagt gatcttattt
+     1741 cattatggtg aaagttggaa cctcttacgt gcccgatcaa tcatgaccaa aatcccttaa
+     1801 cgtgagtttt cgttccactg agcgtcagac cccgtagaaa agatcaaagg atcttc
+//
