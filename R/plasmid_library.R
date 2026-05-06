@@ -3,7 +3,10 @@
 # Plasmids live in two places (searched in order):
 #   1. inst/extdata/plasmids/  — bundled with the package, installed alongside it
 #   2. options("goldengateR.plasmid_dir")  — optional user-configured directory,
-#      useful for personal lab collections you don't want to commit to the package
+#      useful for assembled plasmids or personal lab collections
+#
+# Bundled plasmids take precedence: if a name exists in both places the
+# package copy wins. This keeps pYTK parts stable and predictable.
 #
 # Files can be .gb, .gbk, .genbank, .fa, .fna, or .fasta. The plasmid "name"
 # is the filename without the extension. So a file named pYTK001.gb is
@@ -12,21 +15,15 @@
 #' Get the search path for plasmid lookups
 #'
 #' Returns a character vector of directories that will be searched for
-#' plasmid files, in order. Earlier directories take precedence.
+#' plasmid files, in order. The bundled package library is always searched
+#' first; the user-configured directory (if set) is appended after.
 #'
 #' @return Character vector of directory paths.
 #' @export
 plasmid_search_path <- function() {
   paths <- character()
 
-  # User-configured directory first (so users can override bundled plasmids)
-  user_dir <- getOption("goldengateR.plasmid_dir", default = NULL)
-  if (!is.null(user_dir) && nzchar(user_dir)) {
-    user_dir <- path.expand(user_dir)
-    if (dir.exists(user_dir)) paths <- c(paths, user_dir)
-  }
-
-  # Bundled package plasmids when installed
+  # Bundled package plasmids first
   installed_dir <- tryCatch(
     system.file("extdata", "plasmids", package = "goldengateR"),
     error = function(e) ""
@@ -71,6 +68,13 @@ plasmid_search_path <- function() {
     }
 
     paths <- c(paths, unique(dev_candidates))
+  }
+
+  # User-configured directory appended last (supplemental, not override)
+  user_dir <- getOption("goldengateR.plasmid_dir", default = NULL)
+  if (!is.null(user_dir) && nzchar(user_dir)) {
+    user_dir <- path.expand(user_dir)
+    if (dir.exists(user_dir)) paths <- c(paths, user_dir)
   }
 
   unique(paths)
@@ -161,8 +165,9 @@ load_plasmid <- function(name, topology = "circular") {
 #' Set the user plasmid directory
 #'
 #' Convenience wrapper for \code{options(goldengateR.plasmid_dir = dir)}.
-#' Once set, plasmids in this directory are findable by \code{load_plasmid()}
-#' and take precedence over bundled plasmids of the same name.
+#' Once set, plasmids in this directory are findable by \code{load_plasmid()}.
+#' The bundled package library is always searched first; this directory is
+#' searched second, so it is additive rather than an override.
 #'
 #' @param dir Path to a directory containing GenBank/FASTA plasmid files,
 #'   or NULL to clear.
