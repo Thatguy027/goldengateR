@@ -27,7 +27,7 @@
 # =============================================================================
 # Configuration  --- edit these to match your setup
 # =============================================================================
-DESTINATION_PLASMID <- "pYTK_T3_dest_demo"   # name of plasmid in the bundled library
+DESTINATION_PLASMID <- "pYTK033"   # name of plasmid in the bundled library
                                              # (or in your set_plasmid_dir() directory)
 USER_PLASMID_DIR   <- NULL                   # optional: path to your personal plasmid dir
 ENZYME             <- "BsaI"
