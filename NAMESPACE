@@ -1,4 +1,6 @@
 export(golden_gate_assemble)
+export(assemble_interactive)
+export(assemble_from_table)
 export(read_part)
 export(write_genbank)
 export(digest_and_select)
