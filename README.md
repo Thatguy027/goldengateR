@@ -13,16 +13,8 @@ A small library of bundled example plasmids ships in `inst/extdata/plasmids/` an
 ## Install
 
 ```r
-# From the source directory:
-install.packages("/path/to/goldengateR", repos = NULL, type = "source")
+devtools::install_github("Thatguy027/goldengateR")
 library(goldengateR)
-```
-
-Or for development without installing:
-
-```r
-setwd("/path/to/goldengateR")
-for (f in list.files("R", full.names = TRUE)) source(f)
 ```
 
 No Bioconductor dependencies. After installation, `?goldengateR` shows the package overview and `?function_name` works for each exported function.
@@ -35,12 +27,14 @@ No Bioconductor dependencies. After installation, `?goldengateR` shows the packa
 | `write_genbank(part, file)` | Write a `ggr_part` to GenBank |
 | `load_plasmid(name)` | Load a plasmid from the library by name |
 | `list_plasmids(pattern)` | See what plasmids are available |
-| `set_plasmid_dir(dir)` | Point at a personal plasmid collection |
+| `set_plasmid_dir(dir)` | Add a supplemental plasmid directory |
 | `plasmid_search_path()` | Inspect which directories are searched |
 | `golden_gate_assemble(parts, enzyme, name, output)` | One-pot digest + ligate of circular plasmids |
 | `digest_and_select(part, enzyme, select)` | Digest, then return one fragment by gel-band size |
 | `make_fragment(left_oh, sequence, right_oh, name)` | Construct a fragment from sequence + overhangs |
 | `ligate(fragments, enzyme, name, output)` | Ligate pre-prepared fragments into a circular product |
+| `assemble_interactive(enzyme, output_dir)` | Prompt-driven single assembly at the console |
+| `assemble_from_table(file, output_dir, enzyme)` | Batch assembly from a TSV/CSV manifest |
 
 Full documentation for each function is available via `?function_name` after `library(goldengateR)`.
 
@@ -98,15 +92,17 @@ list_plasmids()                         # everything visible
 list_plasmids(pattern = "pYTK0")        # filter by regex
 load_plasmid("pYTK_T3_dest_demo")       # load by name (case-insensitive)
 
-set_plasmid_dir("~/lab_plasmids/")      # add a personal collection
-plasmid_search_path()                   # see priority order
+set_plasmid_dir("~/lab_plasmids/")      # add a supplemental directory
+plasmid_search_path()                   # see search order
 ```
 
-User-directory plasmids take precedence over bundled ones with the same name. To add a plasmid to the bundled library, drop its `.gb` or `.fa` file into `inst/extdata/plasmids/` and reinstall the package.
+The bundled `inst/extdata/plasmids/` directory (pYTK001–096 plus demo plasmids) is always searched first. A directory set via `set_plasmid_dir()` is searched second — it extends the library rather than overriding it. This means pYTK part names are stable regardless of what is in your personal collection, and you can point `set_plasmid_dir()` at your assembly output folder to make newly-built plasmids immediately available for the next round of assembly without copying anything.
+
+To add a plasmid permanently to the bundled library, drop its `.gb` or `.fa` file into `inst/extdata/plasmids/` and reinstall the package.
 
 ## Batch script: `build_entry_plasmids.R`
 
-A driver script for the common case of building N Type 3 entry plasmids from N PCR products, all going into the same destination vector. Lives at the package root.
+A driver script for the common case of building N Type 3 entry plasmids from N PCR products, all going into the same destination vector. Lives at the package root. Depends on the installed package — no path configuration needed.
 
 ### Input format
 
@@ -126,16 +122,15 @@ The script reads `pcr_product` as the linear amplicon, digests it with BsaI, pic
 
 ### Configuration
 
-Three variables at the top of the script need to match your setup:
+Two variables at the top of the script:
 
 ```r
-GOLDENGATE_PKG_DIR  <- "~/goldengateR"        # path to the package source directory
-DESTINATION_PLASMID <- "pYTK_T3_dest_demo"    # plasmid name, found via load_plasmid()
-USER_PLASMID_DIR    <- NULL                   # optional path to a personal plasmid collection
+DESTINATION_PLASMID <- "pYTK_T3_dest_demo"   # plasmid name, resolved via load_plasmid()
+USER_PLASMID_DIR    <- NULL                   # optional supplemental plasmid directory
 ENZYME              <- "BsaI"
 ```
 
-`DESTINATION_PLASMID` is a name (not a path); it's resolved through the library search path, so any plasmid in either the bundled `inst/extdata/plasmids/` directory or a `set_plasmid_dir()` directory will work.
+`DESTINATION_PLASMID` is a name (not a path); it's resolved through the library search path. Set `USER_PLASMID_DIR` to point at a folder of custom plasmids — the bundled pYTK library is always searched first.
 
 ### Run
 
@@ -171,6 +166,43 @@ The script exits with status 1 if any row failed, so it's safe to chain in a Mak
 - The PCR-product's largest fragment is the released CDS (true when the primer tails follow the standard `CGAGCG-GGTCTC-N-[overhang]-[anneal]` design — the primer-tail edge fragments are about 11–15 bp each, much smaller than any real CDS).
 
 If your primer tails are unusually long or your gene is under ~50 bp, edit the script to use `select = c(min_bp, max_bp)` instead.
+
+## Batch assembly: `assemble_interactive` and `assemble_from_table`
+
+Two convenience functions for running multi-part cassette assemblies without writing boilerplate `load_plasmid` + `golden_gate_assemble` calls.
+
+### Interactive
+
+Prompts for a plasmid name and a space-separated part list, then assembles and writes the GenBank file:
+
+```r
+assemble_interactive(enzyme = "BsaI", output_dir = "./plasmids")
+# Output plasmid name: MY_CONSTRUCT
+# Parts (space-separated): pYTK090 pYTK008 pYTK047 pYTK073 pYTK074 pYTK086 pYTK092
+```
+
+### Table-driven
+
+Reads a TSV or CSV manifest — one row per assembly, one column per part slot — and writes a GenBank file for each row. An example manifest (`assemblies_example.tsv`) is included at the package root.
+
+Required column: `name` (output plasmid name).
+
+Optional part columns (empty cells are skipped):
+
+`vec` | `1` | `2` | `3` | `3a` | `3b` | `234` | `4` | `4a` | `4b` | `5` | `6` | `7` | `8` | `8a` | `8b` | `678`
+
+```r
+results <- assemble_from_table("assemblies_example.tsv", output_dir = "./plasmids")
+```
+
+Returns a data frame with `name`, `status` (`OK` / `FAILED` / `SKIPPED`), `output`, and `error` columns. Failures are reported per-row and do not abort the batch.
+
+To use newly-assembled plasmids as inputs for a subsequent round of assembly, point `set_plasmid_dir()` at the same output folder:
+
+```r
+set_plasmid_dir("./plasmids")
+results <- assemble_from_table("level2_assemblies.tsv", output_dir = "./plasmids")
+```
 
 ## Testing
 
