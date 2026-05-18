@@ -39,7 +39,7 @@ asm <- ligate(list(backbone, insert),
               output = "xylose_parts/gal2_part.gb")
 
 
-results <- assemble_from_table("assemblies_example.tsv", output_dir = "xylose_parts")
+results <- assemble_from_table("../txkl1_fix.tsv", output_dir = "xylose_parts")
 
 
-assemble_interactive(enzyme = "BsmBI", output_dir = "/Users/Stefan/UCLA/Projects/synthetic_yeast/project_plan/GG_Rpackage/goldengateR/manual_test_space/xylose_parts")  
+assemble_interactive(enzyme = "BsmBI", output_dir = "/Users/Stefan/UCLA/Projects/synthetic_yeast/project_plan/GG_Rpackage/goldengateR/manual_test_space/xylose_parts")
