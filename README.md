@@ -42,29 +42,33 @@ Full documentation for each function is available via `?function_name` after `li
 
 ### One-pot Golden Gate
 
+8-part cassette assembly using bundled pYTK parts (produces a 6524 bp sepruby expression cassette):
+
 ```r
-vec  <- load_plasmid("pYTK090")
-p1   <- load_plasmid("pYTK008")
-p234 <- load_plasmid("pYTK047")
+parts <- lapply(
+  c("pYTK083", "pYTK004", "pYTK011", "l52-sepmruby",
+    "pYTK054", "pYTK072", "pYTK077", "pYTK081"),
+  load_plasmid
+)
 
 asm <- golden_gate_assemble(
-  parts   = list(vec, p1, p234),
-  enzyme  = "BsaI",
-  name    = "pYTK096_rebuilt",
-  output  = "pYTK096_rebuilt.gb"
+  parts  = parts,
+  enzyme = "BsaI",
+  name   = "sepruby_cassette",
+  output = "sepruby_cassette.gb"
 )
 ```
 
 ### Sequential digest + gel purification + ligation
 
 ```r
-# 1. Digest the entry vector and gel-purify the large backbone band
-entry_vec <- load_plasmid("pYTK_T3_dest_demo")
-backbone  <- digest_and_select(entry_vec, "BsaI", select = "largest")
+# 1. Digest the destination vector and gel-purify the large backbone band
+dest_vec <- load_plasmid("pYTK_T3_dest_demo")
+backbone <- digest_and_select(dest_vec, "BsaI", select = "largest")
 
-# 2. PCR-amplify your gene with BsaI primer tails, digest, take the insert
-amp    <- read_part("xylB_amplicon.fa", topology = "linear")
-insert <- digest_and_select(amp, "BsaI", select = "largest")
+# 2. Digest the entry plasmid and take the small insert band
+entry    <- load_plasmid("pYTK_T3_xylB_demo")
+insert   <- digest_and_select(entry, "BsaI", select = "smallest")
 
 # 3. Ligate
 asm <- ligate(list(backbone, insert),
@@ -75,15 +79,74 @@ asm <- ligate(list(backbone, insert),
 
 The key difference from `golden_gate_assemble`: gel-purified fragments that contain internal recognition sites are not filtered out, because in the wet-lab workflow the gel separates the band from the enzyme.
 
+In the real workflow the insert would typically come from a digested PCR product (`read_part("xylB_amplicon.fa", topology = "linear")`) rather than an entry plasmid — the pattern is identical; only the source of the insert changes.
+
 ### Synthetic / annealed-oligo fragments
 
 ```r
-oligo <- make_fragment(left_oh  = "CCAT",
+# Backbone from digest (left_oh=CCAT, right_oh=AATG)
+backbone <- digest_and_select(load_plasmid("pYTK_T3_dest_demo"), "BsaI", select = "largest")
+
+# Oligo overhangs must match: left_oh = backbone right_oh, right_oh = backbone left_oh
+oligo <- make_fragment(left_oh  = "AATG",
                        sequence = "ATGAAAGCT",
-                       right_oh = "AATG",
+                       right_oh = "CCAT",
                        name     = "short_cds")
 asm <- ligate(list(backbone, oligo), name = "oligo_construct")
 ```
+
+### Multi-product reactions (enzyme cycling / domain shuffling)
+
+When two plasmids share the same pair of BsmBI overhangs, digesting them together produces four fragments that can re-circularize in four ways: each plasmid re-ligates with itself, and both cross-products form. This is the standard geometry for BsmBI-based cassette swapping or domain shuffling.
+
+`golden_gate_assemble()` and `ligate()` each enforce a single unique product, so this scenario must be modeled as four independent in-silico reactions. The internal functions `digest_part_no_filter()`, `find_circular_assembly()`, and `stitch_assembly()` do the work; the loop below enumerates every valid 2-fragment circle:
+
+```r
+devtools::load_all()   # or library(goldengateR) if installed
+
+plasmid_a <- load_plasmid("xylb_cassette")
+plasmid_b <- load_plasmid("pMYT039")
+
+enzyme <- "BsmBI"
+
+# Get all BsmBI fragments from each plasmid (two per circular plasmid)
+frags_a <- goldengateR:::digest_part_no_filter(plasmid_a, enzyme)
+frags_b <- goldengateR:::digest_part_no_filter(plasmid_b, enzyme)
+
+all_frags <- c(frags_a, frags_b)  # 4 fragments total
+n <- length(all_frags)
+
+products <- list()
+for (i in 1:(n - 1)) {
+  for (j in (i + 1):n) {
+    pair   <- all_frags[c(i, j)]
+    result <- tryCatch(goldengateR:::find_circular_assembly(pair), error = function(e) NULL)
+    if (is.null(result)) next
+
+    stitched <- goldengateR:::stitch_assembly(result$path, result$oriented)
+    products[[length(products) + 1]] <- new_part(
+      sequence = stitched$sequence,
+      features = stitched$features,
+      topology = "circular",
+      name     = paste0(pair[[1]]$source_name, "_x_", pair[[2]]$source_name)
+    )
+  }
+}
+
+# Write all products
+for (p in products) write_genbank(p, paste0(p$name, ".gb"))
+```
+
+Running this against `xylb_cassette.gb` and `pMYT039.gb` (both share overhangs `CTGA`/`CCAA`) returns four products:
+
+| Fragments | Product size | Description |
+|---|---|---|
+| xylb[1] + xylb[2] | 5806 bp | xylb_cassette re-circularized |
+| pmyt39[1] + pmyt39[2] | 3292 bp | pMYT039 re-circularized |
+| xylb[1] + pmyt39[2] | 3941 bp | shuffled — xylb insert in pMYT039 backbone |
+| xylb[2] + pmyt39[1] | 5157 bp | shuffled — pMYT039 insert in xylb backbone |
+
+The `:::` accessor is intentional: these functions are internal because the public API enforces single-product assemblies by design. The multi-product loop is the right pattern whenever you need to enumerate all possible ligation outcomes from a shared-overhang reaction.
 
 ## Plasmid library
 
@@ -219,7 +282,7 @@ Rscript test_plasmid_library.R  # 7 tests on load_plasmid / list_plasmids / set_
 ## Limitations
 
 - Type IIS only — no support for blunt or sticky Type II enzymes (EcoRI, HindIII, etc.).
-- Returns the unique circular product or errors. Does not enumerate linear or partial products.
+- The public API (`golden_gate_assemble`, `ligate`) returns a single unique circular product or errors. Multi-product reactions (e.g. BsmBI cycling between two plasmids with shared overhangs) must be modeled as separate calls — see the "Multi-product reactions" example above. Linear and partial ligation products are not modeled.
 - Features with `join(...)` or `order(...)` locations in input GenBank files are dropped.
 - The GenBank parser is hand-rolled; it handles SnapGene/Benchling/NCBI files in testing but exotic edge cases may need work.
 
