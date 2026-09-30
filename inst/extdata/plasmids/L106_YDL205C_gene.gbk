@@ -1,0 +1,82 @@
+LOCUS       L106_YDL205C_gen        2647 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L106_YDL205C_gene.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_h70JPmkabf
+            URL:
+            https://benchling.com/casscamp21/f/lib_fQ4BjEUfhb-human-genome-project/seq_h70JPmkabf-l106_ydl205c_gene/edit
+            Folder: Human Genome Project
+            Last modified: 2025-11-12T22:18:30.724627+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..588
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     primer_bind     complement(1002..1022)
+                     /label="reverse genome"
+                     /note="Benchling primer"
+                     /note="GATCGACCCGCTTAGTGATAC"
+     primer_bind     1341..1360
+                     /label="forward genome"
+                     /note="Benchling primer"
+                     /note="TTAGAAAGGGTGACACCAAG"
+     CDS             1685..1690
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="IL"
+     misc_feature    1807..2466
+                     /label="CmR (ChlorR)"
+                     /ApEinfo_fwdcolor="#C6C9D1"
+                     /ApEinfo_revcolor="#C6C9D1"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgggccctg aaactctaca
+      721 tattggtggg agaaaatcga aattggcggt aatacaatcc aaccatgttt taaaactgat
+      781 cgaagaaaag tatccggact acgactgcaa ggttttcact ttgcaaactc ttggtgacca
+      841 gattcaattc aaacctttgt actcatttgg cggtaaagct ttatggacaa aggagttgga
+      901 ggaccatctt taccatgacg atccctcaaa gaagcttgac ttgatcgttc attctctgaa
+      961 ggacatgccc actttactac cagagggttt cgagctgggg ggtatcacta agcgggtcga
+     1021 tccaacagat tgtcttgtca tgccctttta ctctgcttat aagtctctgg atgaccttcc
+     1081 agacgggggg attgtgggaa cctcatccgt gagaagatct gctcagctaa aaagaaaata
+     1141 cccacatttg aaatttgaaa gtgtcagagg aaatatacaa actagattac aaaaactaga
+     1201 cgacccaaaa tctccgtacc aatgcatcat cttggcgtct gctgggttga tgcgtatggg
+     1261 gttggaaaac agaattacgc agcgattcca ttcggataca atgtaccatg cagttggaca
+     1321 aggcgccctg ggtatagaaa ttagaaaggg tgacaccaag atgatgaaga ttcttgacga
+     1381 aatttgcgat ctaaatgcaa ctatatgttg cctttcggag cgtgctttga tgagaacttt
+     1441 agaggggggt tgttccgttc ctattggtgt ggaatctaaa tacaatgaag agactaaaaa
+     1501 attactatta aaggccattg tagttgacgt tgaaggcaca gaagcagtag aggacgaaat
+     1561 tgaaatgcta atagaaaatg ttaaagaaga ttccatggcg tgtggtaaga tactagctga
+     1621 aagaatgatt gccgatggcg caaagaaaat tctggatgaa attaatttag acagaatcaa
+     1681 atgaatcctg agaccagacc aataaaaaac gcccggcggc aaccgagcgt tctgaacaaa
+     1741 tccagatgga gttctgaggt cattactgga tctatcaaca ggagtccaag cgagctcgat
+     1801 atcaaattac gccccgccct gccactcatc gcagtactgt tgtaattcat taagcattct
+     1861 gccgacatgg aagccatcac aaacggcatg atgaacctga atcgccagcg gcatcagcac
+     1921 cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga agttgtccat
+     1981 attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg aaacgaaaaa
+     2041 catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac acgccacatc
+     2101 ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc agagcgatga
+     2161 aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat cccatatcac
+     2221 cagctcaccg tctttcattg ccatacgaaa ttccggatga gcattcatca ggcgggcaag
+     2281 aatgtgaata aaggccggat aaaacttgtg cttatttttc tttacggtct ttaaaaaggc
+     2341 cgtaatatcc agctgaacgg tctggttata ggtacattga gcaactgact gaaatgcctc
+     2401 aaaatgttct ttacgatgcc attgggatat atcaacggtg gtatatccag tgattttttt
+     2461 ctccatttta gcttccttag ctcctgaaaa tctcgataac tcaaaaaata cgcccggtag
+     2521 tgatcttatt tcattatggt gaaagttgga acctcttacg tgcccgatca atcatgacca
+     2581 aaatccctta acgtgagttt tcgttccact gagcgtcaga ccccgtagaa aagatcaaag
+     2641 gatcttc
+//

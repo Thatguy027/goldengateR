@@ -1,0 +1,202 @@
+LOCUS       GG213_GFP_dropou        5591 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  GG213_GFP dropout backbone.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_Hoi0fS0yxy
+            URL:
+            https://benchling.com/nayaonika/f/lib_F3OKzaTmpU-sequences/seq_Hoi0fS0yxy-gg213_gfp-dropout-backbone/edit
+            Folder: Sequences
+            Last modified: 2026-02-26T18:45:37.947204+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="99.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /description="high-copy-number ColE1/pMB1/pBR322/pUC
+                     originof replication"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     misc_feature    1040..1753
+                     /label="Superfolder_GFP"
+                     /note="pLannotate"
+                     /database="fpbase"
+                     /identity="98.7"
+                     /match_length="98.0"
+                     /fragment="False"
+                     /other="misc_feature"
+                     /description=""
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     terminator      1765..1836
+                     /label="rrnB T1 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /description="transcription terminator T1 from the E.
+                     colirrnB gene"
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+     terminator      1852..1879
+                     /label="T7Te terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /description="phage T7 early transcription terminator"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     CDS             2107..2184
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="YIPNIIALLKMESQQLHQNPHSLQNQ"
+     promoter        2324..2731
+                     /label="LEU2 promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="promoter"
+                     /description="S. cerevisiae LEU2"
+                     /ApEinfo_fwdcolor="#B7E6D7"
+                     /ApEinfo_revcolor="#B7E6D7"
+     CDS             2732..3823
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MSAPKKIVVLPGDHVGQEITAEAIKVLKAISDVRSNVKFDFENHL
+                     IGGAAIDATGVPLPDEALEASKKADAVLLGAVGGPKWGTGSVRPEQGLLKIRKELQLYA
+                     NLRPCNFASDSLLDLSPIKPQFAKGTDFVVVRELVGGIYFGKRKEDDGDGVAWDSEQYT
+                     VPEVQRITRMAAFMALQHEPPLPIWSLDKANVLASSRLWRKTVEETIKNEFPTLKVQHQ
+                     LIDSAAMILVKNPTHLNGIIITSNMFGDIISDEASVIPGSLGLLPSASLASLPDKNTAF
+                     GLYEPCHGSAPDLPKNKVNPIATILSAAMMLKLSLNLPEEGKAIEDAVKKVLDAGIRTG
+                     DLGGSNSTTEVGDAVAEEVKKILA"
+     misc_feature    4005..4508
+                     /label="CEN/ARS"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="99.0"
+                     /fragment="False"
+                     /other="misc_feature"
+                     /description="S. cerevisiae CEN6 centromere fused to
+                     anautonomously replicating sequence"
+                     /ApEinfo_fwdcolor="#D6B295"
+                     /ApEinfo_revcolor="#D6B295"
+     CDS             complement(4552..5367)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYG
+                     KPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
+                     TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDA
+                     SDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGI
+                     ADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtgc ggccgcccct gaattcgcat ctagactgat
+      721 gagacgtggt agagccacaa acagccggta caagcaacga tctccaggac catctgaatc
+      781 atgcgcggat gacacgaact cacgacggcg atcacagaca ttaacccaca gtacagacac
+      841 tgcgacaacg tggcaattcg tcgcaataca acggaaagtg aaacgtgatt tcatgcgtca
+      901 ttttgaacat tttgtaaatc ttatttaata atgtgtgcgg caattcacat ttaatttatg
+      961 aatgttttct taacatcgcg gcaactcaag aaacggcagg ttcggatctt agctactaga
+     1021 gaaagaggag aaatactaga tgcgtaaagg cgaagagctg ttcactggtg tcgtccctat
+     1081 tctggtggaa ctggatggtg atgtcaacgg tcataagttt tccgtgcgtg gcgagggtga
+     1141 aggtgacgca actaatggta aactgacgct gaagttcatc tgtactactg gtaaactgcc
+     1201 ggttccttgg ccgactctgg taacgacgct gacttatggt gttcagtgct ttgctcgtta
+     1261 tccggaccat atgaagcagc atgacttctt caagtccgcc atgccggaag gctatgtgca
+     1321 ggaacgcacg atttccttta aggatgacgg cacgtacaaa acgcgtgcgg aagtgaaatt
+     1381 tgaaggcgat accctggtaa accgcattga gctgaaaggc attgacttta aagaggacgg
+     1441 caatatcctg ggccataagc tggaatacaa ttttaacagc cacaatgttt acatcaccgc
+     1501 cgataaacaa aaaaatggca ttaaagcgaa ttttaaaatt cgccacaacg tggaggatgg
+     1561 cagcgtgcag ctggctgatc actaccagca aaacactcca atcggtgatg gtcctgttct
+     1621 gctgccagac aatcactatc tgagcacgca aagcgttctg tctaaagatc cgaacgagaa
+     1681 acgcgatcat atggttctgc tggagttcgt aaccgcagcg ggcatcacgc atggtatgga
+     1741 tgaactgtac aaatgaccag gcatcaaata aaacgaaagg ctcagtcgaa agactgggcc
+     1801 tttcgtttta tctgttgttt gtcggtgaac gctctctact agagtcacac tggctcacct
+     1861 tcgggtgggc ctttctgcgt ttatagctgg aaatctgctc gtcagtggtg ctcacactga
+     1921 cgaatcatgt acagatcata ccgatgactg cctggcgact cacaactaag caagacagcc
+     1981 ggaaccagcg ccggcgaaca ccactgcata tatggcatat cacaacagtc cacgtctcaa
+     2041 gcagttacag agatgttacg aaccactagt gcactgcagt acatcgagga gaacttctag
+     2101 tatatctaca tacctaatat tattgcctta ttaaaaatgg aatcccaaca attacatcaa
+     2161 aatccacatt ctcttcaaaa tcaattgtcc tgtacttcct tgttcatgtg tgttcaaaaa
+     2221 cgttatattt ataggataat tatactctat ttctcaacaa gtaattggtt gtttggccga
+     2281 gcggtctaag gcgcctgatt caagaaatat cttgaccgca gttaactgtg ggaatactca
+     2341 ggtatcgtaa gatgcaagag ttcgaatctc ttagcaacca ttattttttt cctcaacata
+     2401 acgagaacac acaggggcgc tatcgcacag aatcaaattc gatgactgga aattttttgt
+     2461 taatttcaga ggtcgcctga cgcatatacc tttttcaact gaaaaattgg gagaaaaagg
+     2521 aaaggtgaga gcgccggaac cggcttttca tatagaatag agaagcgttc atgactaaat
+     2581 gcttgcatca caatacttga agttgacaat attatttaag gacctattgt tttttccaat
+     2641 aggtggttag caatcgtctt actttctaac ttttcttacc ttttacattt cagcaatata
+     2701 tatatatata tttcaaggat ataccattct aatgtctgcc cctaagaaga tcgtcgtttt
+     2761 gccaggtgac cacgttggtc aagaaatcac agccgaagcc attaaggttc ttaaagctat
+     2821 ttctgatgtt cgttccaatg tcaagttcga tttcgaaaat catttaattg gtggtgctgc
+     2881 tatcgatgct acaggtgttc cacttccaga tgaggcgctg gaagcctcca agaaggctga
+     2941 tgccgttttg ttaggtgctg tgggtggtcc taaatgggga accggtagtg ttagacctga
+     3001 acaaggttta ctaaaaatcc gtaaagaact tcaattgtac gccaacttaa gaccatgtaa
+     3061 ctttgcatcc gactctcttt tagacttatc tccaatcaag ccacaatttg ctaaaggtac
+     3121 tgacttcgtt gttgtcagag aattagtggg aggtatttac tttggtaaga gaaaggagga
+     3181 cgatggtgat ggtgtcgctt gggatagtga acaatacacc gttccagaag tgcaaagaat
+     3241 cacaagaatg gccgctttca tggccctaca acatgagcca ccattgccta tttggtcctt
+     3301 ggataaagct aatgttttgg cctcttcaag attatggaga aaaactgtgg aggaaaccat
+     3361 caagaacgaa tttcctacat tgaaggttca acatcaattg attgattctg ccgccatgat
+     3421 cctagttaag aacccaaccc acctaaatgg tattataatc accagcaaca tgtttggtga
+     3481 tatcatctcc gatgaagcct ccgttatccc aggttccttg ggtttgttgc catctgcgtc
+     3541 cttggcctct ttgccagaca agaacaccgc atttggtttg tacgaaccat gccacggttc
+     3601 tgctccagat ttgccaaaga ataaggtcaa ccctatcgcc actatcttgt ctgctgcaat
+     3661 gatgttgaaa ttgtcattga acttgcctga agaaggtaag gccattgaag atgcagttaa
+     3721 aaaggttttg gatgcaggta tcagaactgg tgatttaggt ggttccaaca gtaccaccga
+     3781 agtcggtgat gctgtcgccg aagaagttaa gaaaatcctt gcttaacctg gaggaccctt
+     3841 ctctttagac tattctactc ttatgcacgt aaaaaattct aggaaatatg tattaactag
+     3901 gagtaaaata accggctagt ggcattcata tagccgtctg tttacatcta catcacacat
+     3961 ttcgagtgta tatctcgcaa cgttggcgtt aaataggcag gagtatcacg tgctataaaa
+     4021 ataattataa tttaaatttt ttaatataaa tatataaatt aaaaatagaa agtaaaaaaa
+     4081 gaaattaaag aaaaaatagt ttttgttttc cgaagatgta aaagactcta gggggatcgc
+     4141 caacaaatac taccttttat cttgctcttc ctgctctcag gtattaatgc cgaattgttt
+     4201 catcttgtct gtgtagaaaa ccacacacga aaatcctgtg attttacatt ttacttatcg
+     4261 ttaatcgaat gtatatctat ttaatctgct tttcttgtct aataaatata tatgtaaagt
+     4321 acgctttttg ttgaaatttt ttaaaccttt gtttattttt ttttcttcat tccgtaactc
+     4381 ttctaccttc tttatttact ttctaaaatc caaatacaaa acataaaaat aaataaacac
+     4441 agagtaaatt cccaaattat tccatcatta aaagatacga ggcgcgtgta agttacaggc
+     4501 aagcgatccg tcccgagcgg ccgcgtgtta caaccaatta accaattctg attagaaaaa
+     4561 ctcatcgagc atcaaatgaa actgcaattt attcatatca ggattatcaa taccatattt
+     4621 ttgaaaaagc cgtttctgta atgaaggaga aaactcaccg aggcagttcc ataggatggc
+     4681 aagatcctgg tatcggtctg cgattccgac tcgtccaaca tcaatacaac ctattaattt
+     4741 cccctcgtca aaaataaggt tatcaagtga gaaatcacca tgagtgacga ctgaatccgg
+     4801 tgagaatggc aaaagcttat gcatttcttt ccagacttgt tcaacaggcc agccattacg
+     4861 ctcgtcatca aaatcactcg catcaaccaa accgttattc attcgtgatt gcgcctgagc
+     4921 gaggcgaaat acgcgatcgc tgttaaaagg acaattacaa acaggaatcg aatgcaaccg
+     4981 gcgcaggaac actgccagcg catcaacaat attttcacct gaatcaggat attcttctaa
+     5041 tacctggaat gctgttttcc cggggatcgc agtggtgagt aaccatgcat catcaggagt
+     5101 acggataaaa tgcttgatgg tcggaagagg cataaattcc gtcagccagt ttagtctgac
+     5161 catctcatct gtaacatcat tggcaacgct acctttgcca tgtttcagaa acaactctgg
+     5221 cgcatcgggc ttcccataca atcgatagat tgtcgcacct gattgcccga cattatcgcg
+     5281 agcccattta tacccatata aatcagcatc catgttggaa tttaatcgcg gcctggagca
+     5341 agacgtttcc cgttgaatat ggctcataac accccttgta ttactgttta tgtaagcaga
+     5401 cagttttatt gttcatgatg atatattttt atcttgtgca atgtaacatc agagattttg
+     5461 agacacaacg tggctttgtt gaataaatcg aacttttgct gagttgaagg atcagtcatg
+     5521 accaaaatcc cttaacgtga gttttcgttc cactgagcgt cagaccccgt agaaaagatc
+     5581 aaaggatctt c
+//

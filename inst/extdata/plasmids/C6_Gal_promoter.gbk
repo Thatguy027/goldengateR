@@ -1,0 +1,118 @@
+LOCUS       C6_Gal_promoter         2204 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  C6_Gal promoter.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_EnBVBaaT
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_EnBVBaaT-c6_gal-promoter/edit
+            Folder: amplified parts plasmids
+            Last modified: 2025-07-01T21:18:00.162911+00:00
+FEATURES             Location/Qualifiers
+     source          1..2204
+                     /label="source"
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     misc_feature    10..551
+                     /label="T2"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     protein_bind    94..211
+                     /label="UAS"
+                     /note="upstream activating sequence mediating
+                     Gal4-dependent induction"
+                     /bound_moiety="Gal4"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     promoter        94..535
+                     /label="GAL1 promoter"
+                     /note="inducible promoter, regulated by Gal4"
+                     /gene="S. cerevisiae GAL1"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     CDS             94..535
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="RIRSRRAGDSPPTDDSPPCVLVITGRVPETQMCLAPHCSEQ*RFY
+                     NTSFYGYEEEKLAVTWPHKPSN*RIKLTTIG**CD*FFSLISGVINQRSDDF*SINRYI
+                     NGKAA*PL*LILSTFSVCITSYSNVIKVSTKNC*YTSIL*RQG"
+     primer_bind     506..529
+                     /label="GAL1"
+                     /note="S. cerevisiae GAL1 promoter, forward primer"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+     terminator      569..603
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     CDS             complement(674..1333)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     1248..1267
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     rep_origin      1515..2103
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     primer_bind     2004..2023
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+ORIGIN
+        1 tcggtctcaa acgccccatt atcttagcct aaaaaaacct tctctttgga actttcagta
+       61 atacgcttaa ctgctcattg ctatattgaa gtacggatta gaagccgccg agcgggcgac
+      121 agccctccga cggatgactc tcctccgtgc gtcctcgtca tcaccggtcg cgttcctgaa
+      181 acgcagatgt gcctcgcgcc gcactgctcc gaacaataaa gattctacaa tactagcttt
+      241 tatggttatg aagaggaaaa attggcagta acctggcccc acaaaccttc aaattaacga
+      301 atcaaattaa caaccatagg atgataatgc gattagtttt ttagccttat ttctggggta
+      361 attaatcagc gaagcgatga tttttgatct attaacagat atataaatgg aaaagctgca
+      421 taaccacttt aactaatact ttcaacattt tcagtttgta ttacttctta ttcaaatgtc
+      481 ataaaagtat caacaaaaaa ttgttaatat acctctatac tttaacgtca aggagaaaaa
+      541 actataagat ctatgtgaga ccagaccaat aaaaaacgcc cggcggcaac cgagcgttct
+      601 gaacaaatcc agatggagtt ctgaggtcat tactggatct atcaacagga gtccaagcga
+      661 gctcgatatc aaattacgcc ccgccctgcc actcatcgca gtactgttgt aattcattaa
+      721 gcattctgcc gacatggaag ccatcacaaa cggcatgatg aacctgaatc gccagcggca
+      781 tcagcacctt gtcgccttgc gtataatatt tgcccatggt gaaaacgggg gcgaagaagt
+      841 tgtccatatt ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgaaa
+      901 cgaaaaacat attctcaata aaccctttag ggaaataggc caggttttca ccgtaacacg
+      961 ccacatcttg cgaatatatg tgtagaaact gccggaaatc gtcgtggtat tcactccaga
+     1021 gcgatgaaaa cgtttcagtt tgctcatgga aaacggtgta acaagggtga acactatccc
+     1081 atatcaccag ctcaccgtct ttcattgcca tacgaaattc cggatgagca ttcatcaggc
+     1141 gggcaagaat gtgaataaag gccggataaa acttgtgctt atttttcttt acggtcttta
+     1201 aaaaggccgt aatatccagc tgaacggtct ggttataggt acattgagca actgactgaa
+     1261 atgcctcaaa atgttcttta cgatgccatt gggatatatc aacggtggta tatccagtga
+     1321 tttttttctc cattttagct tccttagctc ctgaaaatct cgataactca aaaaatacgc
+     1381 ccggtagtga tcttatttca ttatggtgaa agttggaacc tcttacgtgc ccgatcaatc
+     1441 atgaccaaaa tcccttaacg tgagttttcg ttccactgag cgtcagaccc cgtagaaaag
+     1501 atcaaaggat cttcttgaga tccttttttt ctgcgcgtaa tctgctgctt gcaaacaaaa
+     1561 aaaccaccgc taccagcggt ggtttgtttg ccggatcaag agctaccaac tctttttccg
+     1621 aaggtaactg gcttcagcag agcgcagata ccaaatactg ttcttctagt gtagccgtag
+     1681 ttaggccacc acttcaagaa ctctgtagca ccgcctacat acctcgctct gctaatcctg
+     1741 ttaccagtgg ctgctgccag tggcgataag tcgtgtctta ccgggttgga ctcaagacga
+     1801 tagttaccgg ataaggcgca gcggtcgggc tgaacggggg gttcgtgcac acagcccagc
+     1861 ttggagcgaa cgacctacac cgaactgaga tacctacagc gtgagctatg agaaagcgcc
+     1921 acgcttcccg aagggagaaa ggcggacagg tatccggtaa gcggcagggt cggaacagga
+     1981 gagcgcacga gggagcttcc agggggaaac gcctggtatc tttatagtcc tgtcgggttt
+     2041 cgccacctct gacttgagcg tcgatttttg tgatgctcgt caggggggcg gagcctatgg
+     2101 aaaaacgcca gcaacgcggc ctttttacgg ttcctggcct tttgctggcc ttttgctcac
+     2161 atgttctttc ctgcgttatc ccctgattct gtggataacc gtag
+//

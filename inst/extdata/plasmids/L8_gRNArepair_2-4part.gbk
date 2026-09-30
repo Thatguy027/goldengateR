@@ -1,0 +1,122 @@
+LOCUS       L8_gRNArepair_2_        2105 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L8_gRNArepair_2-4part.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_61VD4jO0
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_61VD4jO0-l8_grnarepair_2-4part/edit
+            Folder: amplified parts plasmids
+            Last modified: 2023-10-26T21:38:31.870944+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     primer_bind     complement(694..712)
+                     /label="REV_amp_gRNA_array"
+                     /note="Benchling primer"
+                     /note="gggttaagtcgtttgagac"
+     misc_feature    707..1140
+                     /label="gRNa repair part"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     primer_bind     713..732
+                     /label="FWD_amp_gRNA_array"
+                     /note="Benchling primer"
+                     /note="tcactaaagggaacaaaagc"
+     promoter        740..1008
+                     /label="SNR52 promoter"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+     misc_RNA        1092..1140
+                     /label="truncated gRNA scaffold"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="65.33333333333333"
+                     /fragment="True"
+                     /other="misc RNA"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     terminator      complement(1156..1244)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="94.68085106382979"
+                     /fragment="True"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#C6C9D1"
+                     /ApEinfo_revcolor="#C6C9D1"
+     CDS             complement(1265..1924)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(1925..2022)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="96.07843137254902"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#85DAE9"
+                     /ApEinfo_revcolor="#85DAE9"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa acgacttaac cctcactaaa
+      721 gggaacaaaa gctggagctt ctttgaaaag ataatgtatg attatgcttt cactcatatt
+      781 tatacagaaa cttgatgttt tctttcgagt atatacaagg tgattacatg tacgtttgaa
+      841 gtacaactct agattttgta gtgccctctt gggctagcgg taaaggtgcg cattttttca
+      901 caccctacaa tgttctgttc aaaagatttt ggtcaaacgc tgtagaagtg aaagttggtg
+      961 cgcatgtttc ggcgttcgaa acttctccgc agtgaaagat aaatgatcga gacggttgtt
+     1021 cttttagttc ctgttccatt aactgcgctt ttaaatcttt tttagcttct tgctcttttt
+     1081 tgtacgtctc tgttttagag ctagaaatag caagttaaaa taaggctagt ccgttatcaa
+     1141 gagctgtgag accagaccaa taaaaaacgc ccggcggcaa ccgagcgttc tgaacaaatc
+     1201 cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg agctcgatat
+     1261 caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta agcattctgc
+     1321 cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc atcagcacct
+     1381 tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag ttgtccatat
+     1441 tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgaa acgaaaaaca
+     1501 tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac gccacatctt
+     1561 gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag agcgatgaaa
+     1621 acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc catatcacca
+     1681 gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg cgggcaagaa
+     1741 tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt aaaaaggccg
+     1801 taatatccag ctgaacggtc tggttatagg tacattgagc aactgactga aatgcctcaa
+     1861 aatgttcttt acgatgccat tgggatatat caacggtggt atatccagtg atttttttct
+     1921 ccattttagc ttccttagct cctgaaaatc tcgataactc aaaaaatacg cccggtagtg
+     1981 atcttatttc attatggtga aagttggaac ctcttacgtg cccgatcaat catgaccaaa
+     2041 atcccttaac gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga
+     2101 tcttc
+//

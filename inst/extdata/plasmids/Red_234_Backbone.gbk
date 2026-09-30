@@ -1,0 +1,86 @@
+LOCUS       Red_234_Backbone        2335 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  Red+234 Backbone.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_eHt326sARM
+            URL:
+            https://benchling.com/novlzpzhang/f/lib_TjUiIYpHwq-summer-2026-t7/seq_eHt326sARM-red234-backbone/edit
+            Folder: Summer 2026: T7
+            Last modified: 2026-07-08T20:31:23.300386+00:00
+FEATURES             Location/Qualifiers
+     terminator      691..725
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     CDS             complement(796..1455)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     1370..1389
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+     rep_origin      1637..2225
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     primer_bind     2126..2145
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+ORIGIN
+        1 aacgtctttg aaaagataat gtatgattat gctttcactc atatttatac agaaacttga
+       61 tgttttcttt cgagtatata caaggtgatt acatgtacgt ttgaagtaca actctagatt
+      121 ttgtagtgcc ctcttgggct agcggtaaag gtgcgcattt tttcacaccc tacaatgttc
+      181 tgttcaaaag attttggtca aacgctgtag aagtgaaagt tggtgcgcat gtttcggcgt
+      241 tcgaaacttc tccgcagtga aagataaatg atcgcgcaag tggtttagtg gtaaaatcca
+      301 acgttgccat cgttgggccc ccggttcgat tccgggcttg cgcataactt cgttgtaaag
+      361 aatagtttta gagctagaaa tagcaagtta aaataaggct agtccgttat caacttgaaa
+      421 aagtggcacc gagtcggtgg tgcttttttt gttttttatg tctgccggga atttaatacg
+      481 actcactata gggtttttcg gcgtacaaag gacgatcctt cagtacttcc aaagcttccg
+      541 gaatcattta tttattcttt acaacgaagt tacctcttcc atcgtatgcc aaagtcctcg
+      601 acttcaagac gttagcataa ccccttgggg cctctaaacg ggtcttgagg ggttttttgc
+      661 tgcggccgcg ctcgctgtga gaccagacca ataaaaaacg cccggcggca accgagcgtt
+      721 ctgaacaaat ccagatggag ttctgaggtc attactggat ctatcaacag gagtccaagc
+      781 gagctcgata tcaaattacg ccccgccctg ccactcatcg cagtactgtt gtaattcatt
+      841 aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa tcgccagcgg
+      901 catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa
+      961 gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga
+     1021 aacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt caccgtaaca
+     1081 cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca
+     1141 gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt gaacactatc
+     1201 ccatatcacc agctcaccgt ctttcattgc catacgaaat tccggatgag cattcatcag
+     1261 gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct ttacggtctt
+     1321 taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag caactgactg
+     1381 aaatgcctca aaatgttctt tacgatgcca ttgggatata tcaacggtgg tatatccagt
+     1441 gatttttttc tccattttag cttccttagc tcctgaaaat ctcgataact caaaaaatac
+     1501 gcccggtagt gatcttattt cattatggtg aaagttggaa cctcttacgt gcccgatcaa
+     1561 tcatgaccaa aatcccttaa cgtgagtttt cgttccactg agcgtcagac cccgtagaaa
+     1621 agatcaaagg atcttcttga gatccttttt ttctgcgcgt aatctgctgc ttgcaaacaa
+     1681 aaaaaccacc gctaccagcg gtggtttgtt tgccggatca agagctacca actctttttc
+     1741 cgaaggtaac tggcttcagc agagcgcaga taccaaatac tgttcttcta gtgtagccgt
+     1801 agttaggcca ccacttcaag aactctgtag caccgcctac atacctcgct ctgctaatcc
+     1861 tgttaccagt ggctgctgcc agtggcgata agtcgtgtct taccgggttg gactcaagac
+     1921 gatagttacc ggataaggcg cagcggtcgg gctgaacggg gggttcgtgc acacagccca
+     1981 gcttggagcg aacgacctac accgaactga gatacctaca gcgtgagcta tgagaaagcg
+     2041 ccacgcttcc cgaagggaga aaggcggaca ggtatccggt aagcggcagg gtcggaacag
+     2101 gagagcgcac gagggagctt ccagggggaa acgcctggta tctttatagt cctgtcgggt
+     2161 ttcgccacct ctgacttgag cgtcgatttt tgtgatgctc gtcagggggg cggagcctat
+     2221 ggaaaaacgc cagcaacgcg gcctttttac ggttcctggc cttttgctgg ccttttgctc
+     2281 acatgttctt tcctgcgtta tcccctgatt ctgtggataa ccgtagtcgg tctca
+//

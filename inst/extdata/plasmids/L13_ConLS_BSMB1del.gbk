@@ -1,0 +1,64 @@
+LOCUS       L13_ConLS_BSMB1d        1856 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L13_ConLS_BSMB1del.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_6hoPHOJV
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_6hoPHOJV-l13_conls_bsmb1del/edit
+            Folder: amplified parts plasmids
+            Last modified: 2023-09-12T20:45:07.245544+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..589
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     misc_feature    705..892
+                     /label="ConLS_piece"
+                     /ApEinfo_fwdcolor="#85DAE9"
+                     /ApEinfo_revcolor="#85DAE9"
+     misc_feature    862..873
+                     /label="Former Bsmb1"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     misc_feature    1016..1675
+                     /label="CmR (ChlorR)"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcac cctgaattcg catctagatg
+      721 gtagagccac aaacagccgg tacaagcaac gatctccagg accatctgaa tcatgcgcgg
+      781 atgacacgaa ctcacgacgg cgatcacaga cattaaccca cagtacagac actgcgacaa
+      841 cgtggcaatt cgtcgcaata cgcgctcact gaactggccg ataattgcag acgaacgtga
+      901 gaccagacca ataaaaaacg cccggcggca accgagcgtt ctgaacaaat ccagatggag
+      961 ttctgaggtc attactggat ctatcaacag gagtccaagc gagctcgata tcaaattacg
+     1021 ccccgccctg ccactcatcg cagtactgtt gtaattcatt aagcattctg ccgacatgga
+     1081 agccatcaca aacggcatga tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt
+     1141 gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt
+     1201 ttaaatcaaa actggtgaaa ctcacccagg gattggctga aacgaaaaac atattctcaa
+     1261 taaacccttt agggaaatag gccaggtttt caccgtaaca cgccacatct tgcgaatata
+     1321 tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa aacgtttcag
+     1381 tttgctcatg gaaaacggtg taacaagggt gaacactatc ccatatcacc agctcaccgt
+     1441 ctttcattgc catacgaaat tccggatgag cattcatcag gcgggcaaga atgtgaataa
+     1501 aggccggata aaacttgtgc ttatttttct ttacggtctt taaaaaggcc gtaatatcca
+     1561 gctgaacggt ctggttatag gtacattgag caactgactg aaatgcctca aaatgttctt
+     1621 tacgatgcca ttgggatata tcaacggtgg tatatccagt gatttttttc tccattttag
+     1681 cttccttagc tcctgaaaat ctcgataact caaaaaatac gcccggtagt gatcttattt
+     1741 cattatggtg aaagttggaa cctcttacgt gcccgatcaa tcatgaccaa aatcccttaa
+     1801 cgtgagtttt cgttccactg agcgtcagac cccgtagaaa agatcaaagg atcttc
+//

@@ -1,0 +1,105 @@
+LOCUS       A9_TDH3_promoter        2351 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  A9_TDH3_promoter.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_ETMlLfcZ
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_ETMlLfcZ-a9_tdh3_promoter/edit
+            Folder: amplified parts plasmids
+            Last modified: 2024-03-06T19:06:35.712741+00:00
+FEATURES             Location/Qualifiers
+     source          1..2351
+                     /label="source"
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     promoter        27..693
+                     /label="GAP promoter"
+                     /note="promoter for glyceraldehyde-3-phosphate
+                     dehydrogenase"
+                     /gene="S. cerevisiae TDH3"
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+     primer_bind     563..586
+                     /label="GPDpro-F"
+                     /note="S. cerevisiae GPD promoter, forward primer"
+                     /ApEinfo_fwdcolor="#D59687"
+                     /ApEinfo_revcolor="#D59687"
+     terminator      716..750
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#FFEF86"
+                     /ApEinfo_revcolor="#FFEF86"
+     CDS             complement(821..1480)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     1395..1414
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#B7E6D7"
+                     /ApEinfo_revcolor="#B7E6D7"
+     rep_origin      1662..2250
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#B7E6D7"
+                     /ApEinfo_revcolor="#B7E6D7"
+     primer_bind     2151..2170
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+ORIGIN
+        1 tcggtctcaa acgcagttcg agtttatcat tatcaatact gccatttcaa agaatacgta
+       61 aataattaat agtagtgatt ttcctaactt tatttagtca aaaaattagc cttttaattc
+      121 tgctgtaacc cgtacatgcc caaaataggg ggcgggttac acagaatata taacatcgta
+      181 ggtgtctggg tgaacagttt attcctggca tccactaaat ataatggagc ccgcttttta
+      241 agctggcatc cagaaaaaaa aagaatccca gcaccaaaat attgttttct tcaccaacca
+      301 tcagttcata ggtccattct cttagcgcaa ctacagagaa caggggcaca aacaggcaaa
+      361 aaacgggcac aacctcaatg gagtgatgca acctgcctgg agtaaatgat gacacaaggc
+      421 aattgaccca cgcatgtatc tatctcattt tcttacacct tctattacct tctgctctct
+      481 ctgatttgga aaaagctgaa aaaaaaggtt gaaaccagtt ccctgaaatt attcccctac
+      541 ttgactaata agtatataaa gacggtaggt attgattgta attctgtaaa tctatttctt
+      601 aaacttctta aattctactt ttatagttag tctttttttt agttttaaaa caccaagaac
+      661 ttagtttcga ataaacacac ataaacaaac aaaagatcta tgtgagacca gaccaataaa
+      721 aaacgcccgg cggcaaccga gcgttctgaa caaatccaga tggagttctg aggtcattac
+      781 tggatctatc aacaggagtc caagcgagct cgatatcaaa ttacgccccg ccctgccact
+      841 catcgcagta ctgttgtaat tcattaagca ttctgccgac atggaagcca tcacaaacgg
+      901 catgatgaac ctgaatcgcc agcggcatca gcaccttgtc gccttgcgta taatatttgc
+      961 ccatggtgaa aacgggggcg aagaagttgt ccatattggc cacgtttaaa tcaaaactgg
+     1021 tgaaactcac ccagggattg gctgaaacga aaaacatatt ctcaataaac cctttaggga
+     1081 aataggccag gttttcaccg taacacgcca catcttgcga atatatgtgt agaaactgcc
+     1141 ggaaatcgtc gtggtattca ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa
+     1201 cggtgtaaca agggtgaaca ctatcccata tcaccagctc accgtctttc attgccatac
+     1261 gaaattccgg atgagcattc atcaggcggg caagaatgtg aataaaggcc ggataaaact
+     1321 tgtgcttatt tttctttacg gtctttaaaa aggccgtaat atccagctga acggtctggt
+     1381 tataggtaca ttgagcaact gactgaaatg cctcaaaatg ttctttacga tgccattggg
+     1441 atatatcaac ggtggtatat ccagtgattt ttttctccat tttagcttcc ttagctcctg
+     1501 aaaatctcga taactcaaaa aatacgcccg gtagtgatct tatttcatta tggtgaaagt
+     1561 tggaacctct tacgtgcccg atcaatcatg accaaaatcc cttaacgtga gttttcgttc
+     1621 cactgagcgt cagaccccgt agaaaagatc aaaggatctt cttgagatcc tttttttctg
+     1681 cgcgtaatct gctgcttgca aacaaaaaaa ccaccgctac cagcggtggt ttgtttgccg
+     1741 gatcaagagc taccaactct ttttccgaag gtaactggct tcagcagagc gcagatacca
+     1801 aatactgttc ttctagtgta gccgtagtta ggccaccact tcaagaactc tgtagcaccg
+     1861 cctacatacc tcgctctgct aatcctgtta ccagtggctg ctgccagtgg cgataagtcg
+     1921 tgtcttaccg ggttggactc aagacgatag ttaccggata aggcgcagcg gtcgggctga
+     1981 acggggggtt cgtgcacaca gcccagcttg gagcgaacga cctacaccga actgagatac
+     2041 ctacagcgtg agctatgaga aagcgccacg cttcccgaag ggagaaaggc ggacaggtat
+     2101 ccggtaagcg gcagggtcgg aacaggagag cgcacgaggg agcttccagg gggaaacgcc
+     2161 tggtatcttt atagtcctgt cgggtttcgc cacctctgac ttgagcgtcg atttttgtga
+     2221 tgctcgtcag gggggcggag cctatggaaa aacgccagca acgcggcctt tttacggttc
+     2281 ctggcctttt gctggccttt tgctcacatg ttctttcctg cgttatcccc tgattctgtg
+     2341 gataaccgta g
+//

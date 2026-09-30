@@ -1,0 +1,135 @@
+LOCUS       GG42_Corrected_G        2678 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  GG42_Corrected GFP dropout.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_CYkQGSPM
+            URL:
+            https://benchling.com/lcrisman/f/lib_mwyNhqNN-completed-golden-gate-plasmids/seq_CYkQGSPM-gg42_corrected-gfp-dropout/edit
+            Folder: completed golden gate plasmids
+            Last modified: 2025-11-11T20:56:07.830763+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#B7E6D7"
+                     /ApEinfo_revcolor="#B7E6D7"
+     misc_feature    703..724
+                     /label="Primer handle FWD"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+     CDS             870..1583
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MRKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLK
+                     FICTTGKLPVPWPTLVTTLTYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTISFKDDG
+                     TYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKA
+                     NFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLE
+                     FVTAAGITHGMDELYK"
+     terminator      1595..1666
+                     /label="rrnB T1 terminator"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#C6C9D1"
+                     /ApEinfo_revcolor="#C6C9D1"
+     terminator      complement(1682..1709)
+                     /label="T7Te terminator"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     misc_feature    1697..1716
+                     /label="Primer Handle REV"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     terminator      complement(1729..1817)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="94.68085106382979"
+                     /fragment="True"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     CDS             complement(1838..2497)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(2498..2595)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="96.07843137254902"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#F58A5E"
+                     /ApEinfo_revcolor="#F58A5E"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa acggaaagtg aaacgtgatt
+      721 tcatgcgtca ttttgaacat tttgtaaatc ttatttaata atgtgtgcgg caattcacat
+      781 ttaatttatg aatgttttct taacatcgcg gcaactcaag aaacggcagg ttcggatctt
+      841 agctactaga gaaagaggag aaatactaga tgcgtaaagg cgaagagctg ttcactggtg
+      901 tcgtccctat tctggtggaa ctggatggtg atgtcaacgg tcataagttt tccgtgcgtg
+      961 gcgagggtga aggtgacgca actaatggta aactgacgct gaagttcatc tgtactactg
+     1021 gtaaactgcc ggttccttgg ccgactctgg taacgacgct gacttatggt gttcagtgct
+     1081 ttgctcgtta tccggaccat atgaagcagc atgacttctt caagtccgcc atgccggaag
+     1141 gctatgtgca ggaacgcacg atttccttta aggatgacgg cacgtacaaa acgcgtgcgg
+     1201 aagtgaaatt tgaaggcgat accctggtaa accgcattga gctgaaaggc attgacttta
+     1261 aagaggacgg caatatcctg ggccataagc tggaatacaa ttttaacagc cacaatgttt
+     1321 acatcaccgc cgataaacaa aaaaatggca ttaaagcgaa ttttaaaatt cgccacaacg
+     1381 tggaggatgg cagcgtgcag ctggctgatc actaccagca aaacactcca atcggtgatg
+     1441 gtcctgttct gctgccagac aatcactatc tgagcacgca aagcgttctg tctaaagatc
+     1501 cgaacgagaa acgcgatcat atggttctgc tggagttcgt aaccgcagcg ggcatcacgc
+     1561 atggtatgga tgaactgtac aaatgaccag gcatcaaata aaacgaaagg ctcagtcgaa
+     1621 agactgggcc tttcgtttta tctgttgttt gtcggtgaac gctctctact agagtcacac
+     1681 tggctcacct tcgggtgggc ctttctgcgt ttatagctgt gagaccagac caataaaaaa
+     1741 cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg
+     1801 atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat
+     1861 cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat
+     1921 gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca
+     1981 tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga
+     2041 aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct ttagggaaat
+     2101 aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga
+     2161 aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg
+     2221 tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa
+     2281 attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt
+     2341 gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat
+     2401 aggtacattg agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata
+     2461 tatcaacggt ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa
+     2521 atctcgataa ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg
+     2581 aacctcttac gtgcccgatc aatcatgacc aaaatccctt aacgtgagtt ttcgttccac
+     2641 tgagcgtcag accccgtaga aaagatcaaa ggatcttc
+//

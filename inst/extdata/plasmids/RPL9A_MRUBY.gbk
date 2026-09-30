@@ -1,0 +1,55 @@
+LOCUS       RPL9A_MRUBY             2238 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  RPL9A_MRUBY.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_PIRWFxFJ
+            URL:
+            https://benchling.com/smilefreak/f/lib_6NBKczaQ-hm-part-creation/seq_PIRWFxFJ-rpl9a_mruby/edit
+            Folder: HM Part Creation
+            Last modified: 2025-04-16T17:49:57.162952+00:00
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgaaataca tacaaactga
+      721 acaacaaatc gaagtccccg aaggtgtcac tgtaagcata aaatccagaa ttgtaaaggt
+      781 tgttggacct agaggtactt taaccaaaaa tctaaagcat attgatgtta cattcacgaa
+      841 ggtcaataat caattgataa aggttgcagt gcataacgga ggcaggaaac acgtggcagc
+      901 tttgagaacc gtaaaatctc tagttgacaa catgatcacg ggtgtcacaa aagggtacaa
+      961 atataagatg agatatgtgt acgcgcattt cccaattaat gtaaacattg ttgaaaaaga
+     1021 tggagccaaa ttcattgaag tacgtaactt tttgggtgac aagaaaataa gaaatgtgcc
+     1081 agtgagggat ggtgttacaa ttgagttttc gaccaatgtt aaagatgaga ttgtcctgtc
+     1141 agggaactct gtcgaggatg tttcacagaa tgctgctgac ttacaacaga tctgtagggt
+     1201 aagaaataaa gatatacgta agtttttaga cggtatctat gttagtcaca agggctttat
+     1261 tactgaagat cttggatcct gagaccagac caataaaaaa cgcccggcgg caaccgagcg
+     1321 ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac aggagtccaa
+     1381 gcgagctcga tatcaaatta cgccccgccc tgccactcat cgcagtactg ttgtaattca
+     1441 ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg aatcgccagc
+     1501 ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac gggggcgaag
+     1561 aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca gggattggct
+     1621 gaaacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt ttcaccgtaa
+     1681 cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg gtattcactc
+     1741 cagagcgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg gtgaacacta
+     1801 tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg agcattcatc
+     1861 aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt ctttacggtc
+     1921 tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg agcaactgac
+     1981 tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt ggtatatcca
+     2041 gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa ctcaaaaaat
+     2101 acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac gtgcccgatc
+     2161 aatcatgacc aaaatccctt aacgtgagtt ttcgttccac tgagcgtcag accccgtaga
+     2221 aaagatcaaa ggatcttc
+//

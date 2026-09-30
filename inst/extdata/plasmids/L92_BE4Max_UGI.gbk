@@ -1,0 +1,104 @@
+LOCUS       L92_BE4Max_UGI          2290 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L92_BE4Max_UGI.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_w0eXXCqk
+            URL:
+            https://benchling.com/curtisliu/f/lib_YFZV5NY7-part-plasmids/seq_w0eXXCqk-l92_be4max_ugi/edit
+            Folder: part plasmids
+            Last modified: 2025-03-09T07:21:34.129424+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#D6B295"
+                     /ApEinfo_revcolor="#D6B295"
+     CDS             701..1012
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="SSGGSGGSGGSTNLSDIIEKETGKQLVIQESILMLPEEVEEVIGN
+                     KPESDILVHTAYDESTDENVMLLTSDAPEYKPWALVIQDSNGENKIKMLSGGSGGSGGS
+                     "
+     CDS             1013..1261
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="TNLSDIIEKETGKQLVIQESILMLPEEVEEVIGNKPESDILVHTA
+                     YDESTDENVMLLTSDAPEYKPWALVIQDSNGENKIKML"
+     terminator      complement(1345..1379)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     CDS             complement(1453..2109)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(2110..2207)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="95.1"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa tccagcggcg ggagcggcgg
+      721 gagcgggggg agcactaatc tgagcgacat cattgagaag gagactggga aacagctggt
+      781 cattcaggag tccatcctga tgctgcctga ggaggtggag gaagtgatcg gcaacaagcc
+      841 agagtctgac atcctggtgc acaccgccta cgacgagtcc acagatgaga atgtgatgct
+      901 gctgacctct gacgcccccg agtataagcc ttgggccctg gtcatccagg attctaacgg
+      961 cgagaataag atcaagatgc tgagcggagg atccggagga tctggaggca gcaccaacct
+     1021 gtctgacatc atcgagaagg agacaggcaa gcagctggtc atccaggaga gcatcctgat
+     1081 gctgcccgaa gaagtcgaag aagtgatcgg aaacaagcct gagagcgata tcctggtcca
+     1141 taccgcctac gacgagagta ccgacgaaaa tgtgatgctg ctgacatccg acgccccaga
+     1201 gtataagccc tgggctctgg tcatccagga ttccaacgga gagaacaaaa tcaaaatgct
+     1261 gtctggcggc tcaaaaagaa ccgccgacgg cagcgaattc gagcccaaga agaagaggaa
+     1321 agtctaatgg ctgagaccag accaataaaa aacgcccggc ggcaaccgag cgttctgaac
+     1381 aaatccagat ggagttctga ggtcattact ggatctatca acaggagtcc aagcgagctc
+     1441 gatatcaaat tacgccccgc cctgccactc atcgcagtac tgttgtaatt cattaagcat
+     1501 tctgccgaca tggaagccat cacaaacggc atgatgaacc tgaatcgcca gcggcatcag
+     1561 caccttgtcg ccttgcgtat aatatttgcc catggtgaaa acgggggcga agaagttgtc
+     1621 catattggcc acgtttaaat caaaactggt gaaactcacc cagggattgg ctgaaacgaa
+     1681 aaacatattc tcaataaacc ctttagggaa ataggccagg ttttcaccgt aacacgccac
+     1741 atcttgcgaa tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagcga
+     1801 tgaaaacgtt tcagtttgct catggaaaac ggtgtaacaa gggtgaacac tatcccatat
+     1861 caccagctca ccgtctttca ttgccatacg aaattccgga tgagcattca tcaggcgggc
+     1921 aagaatgtga ataaaggccg gataaaactt gtgcttattt ttctttacgg tctttaaaaa
+     1981 ggccgtaata tccagctgaa cggtctggtt ataggtacat tgagcaactg actgaaatgc
+     2041 ctcaaaatgt tctttacgat gccattggga tatatcaacg gtggtatatc cagtgatttt
+     2101 tttctccatt ttagcttcct tagctcctga aaatctcgat aactcaaaaa atacgcccgg
+     2161 tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga tcaatcatga
+     2221 ccaaaatccc ttaacgtgag ttttcgttcc actgagcgtc agaccccgta gaaaagatca
+     2281 aaggatcttc
+//

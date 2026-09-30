@@ -1,0 +1,91 @@
+LOCUS       L37_Met17_right_        1948 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L37_Met17_right homology Arm.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_QknJ8ZVm
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_QknJ8ZVm-l37_met17_right-homology-arm/edit
+            Folder: amplified parts plasmids
+            Last modified: 2025-05-05T03:59:51.879632+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     misc_feature    706..981
+                     /label="Met17 homology arm Right"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     terminator      complement(1003..1037)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+     CDS             complement(1111..1767)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(1768..1865)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="95.1"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcag agtgaccatt tatttttaaa
+      721 ttcgaccgtc tgacagacgg tgcacttatt acttaatttt tttttttttt taatcctcgt
+      781 taaactgagt acataatcag caacaatata atataaaagt tttgcttttt tatgtacgta
+      841 caataggggt acttaaataa ataaataaac aataaaacaa tcaataaata aataatatac
+      901 gatcataaat tacgagatat atttcatagt cttgacttct ccagccgaac gtcattaaat
+      961 ttaaggcaga aaagataaac aagggccgat gagaccagac caataaaaaa cgcccggcgg
+     1021 caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac
+     1081 aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat cgcagtactg
+     1141 ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg
+     1201 aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac
+     1261 gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca
+     1321 gggattggct gaaacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt
+     1381 ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg
+     1441 gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg
+     1501 gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg
+     1561 agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt
+     1621 ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg
+     1681 agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt
+     1741 ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa
+     1801 ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac
+     1861 gtgcccgatc aatcatgacc aaaatccctt aacgtgagtt ttcgttccac tgagcgtcag
+     1921 accccgtaga aaagatcaaa ggatcttc
+//

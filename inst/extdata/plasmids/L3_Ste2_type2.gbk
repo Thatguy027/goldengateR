@@ -1,0 +1,68 @@
+LOCUS       L3_Ste2_type2           2333 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L3_Ste2_type2.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_Z1K9lY90
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_Z1K9lY90-l3_ste2_type2/edit
+            Folder: amplified parts plasmids
+            Last modified: 2023-11-06T23:31:17.889097+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..589
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     misc_feature    704..1370
+                     /label="Sterile2 promoter"
+                     /ApEinfo_fwdcolor="#D59687"
+                     /ApEinfo_revcolor="#D59687"
+     misc_feature    complement(1493..2152)
+                     /label="CmR"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa acgcgtattt tgttaattgg
+      721 cttgttctat gtcatttgct aaattttctc tttatttctt tactttgcca attcaagata
+      781 atcttccctt cccagagaga aaaaaggaaa aatttagcta tgaaacctca ataagctttt
+      841 taatacacca aagattcaag ataagagcat agaacgaact gtagaatagt ccggatatgt
+      901 tatccaatgc ctgccaaaat gcattgtcac acgctgtagt gctcgaatag gtgttgcaat
+      961 ccgtcaatat acgtcttgct ctgtgggtaa atgtctcgtg cattaagaca ggctagtata
+     1021 aacgagaaga agtatcctgc tttgcaatga aacaatagta tccgctaaga atttaagcag
+     1081 gccaacgtcc atactgctta ggacctgtgc ctggcaagtc gcagattgaa gttttttcaa
+     1141 ccatgtaaat ttcctaattg ggtaagtaca tgatgaaaca catatgaaga aaaaagcttt
+     1201 cctacatatt caagattttt ttctgtgggt ggaatactat ttaaggagtg ctattagtat
+     1261 cttatttgac ttcaaagcaa tacgatacct tttcttttca cctgctctgg ctataattat
+     1321 aattggttac ttaaaaatgc accgttaaga accatatcca agaatcaaaa tatgtgagac
+     1381 cagaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc
+     1441 tgaggtcatt actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc
+     1501 cgccctgcca ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc
+     1561 catcacaaac ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg
+     1621 tataatattt gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta
+     1681 aatcaaaact ggtgaaactc acccagggat tggctgaaac gaaaaacata ttctcaataa
+     1741 accctttagg gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt
+     1801 gtagaaactg ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt
+     1861 gctcatggaa aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt
+     1921 tcattgccat acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg
+     1981 ccggataaaa cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct
+     2041 gaacggtctg gttataggta cattgagcaa ctgactgaaa tgcctcaaaa tgttctttac
+     2101 gatgccattg ggatatatca acggtggtat atccagtgat ttttttctcc attttagctt
+     2161 ccttagctcc tgaaaatctc gataactcaa aaaatacgcc cggtagtgat cttatttcat
+     2221 tatggtgaaa gttggaacct cttacgtgcc cgatcaatca tgaccaaaat cccttaacgt
+     2281 gagttttcgt tccactgagc gtcagacccc gtagaaaaga tcaaaggatc ttc
+//

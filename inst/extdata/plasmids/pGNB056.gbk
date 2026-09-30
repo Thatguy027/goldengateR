@@ -1,0 +1,109 @@
+LOCUS       pGNB056                 2398 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  pGNB056.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_4TbQ6DMs
+            URL:
+            https://benchling.com/bruni/f/lib_Fr8Qdka8-plasmids/seq_4TbQ6DMs-pgnb056/edit
+            Folder: Plasmids
+            Last modified: 2024-10-29T18:01:27.232543+00:00
+FEATURES             Location/Qualifiers
+     source          1..2398
+                     /label="source"
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     CDS             14..28
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="EAAAK"
+     CDS             29..739
+                     /label="Medium-FT"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     primer_bind     complement(174..192)
+                     /label="mCherry-R"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     primer_bind     442..461
+                     /label="mCherry-F"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     terminator      complement(763..797)
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     CDS             complement(868..1527)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     1442..1461
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#D59687"
+                     /ApEinfo_revcolor="#D59687"
+     rep_origin      1709..2297
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     primer_bind     2198..2217
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+ORIGIN
+        1 tcggtctcaa tccgaagctg ctgctaagat ggtgagcaag ggcgaggagg ataacatggc
+       61 catcatcaag gaattcatgc gtttcaaggt gcacctggag ggctccgtgg acggccacga
+      121 gttcgagatc gagggcgagg gcgagggccg cccctacgag ggcacccaga gcgccaagct
+      181 gaaggtgacc aagggtggcc ccctgccctt cgcctgggac atcctgtccc ctcagttcat
+      241 gtacggctcc agggcctacg tgaagcaccc cgccgacatc cccgactact ggaagctgtc
+      301 cttccccgag ggcttcaagt gggagcgcgt gatgaacttc gaggatggcg gcgtggtgac
+      361 cgtgacccag gactcctccc tgcaggacgg cgagttcatc tacaaggtga agctgcgcgg
+      421 caccaacttc ccttccgacg gccccgtaat gcagaagaag accatgggct gggaggcctc
+      481 ctccgagcgg atataccccg aggacggcgc cctgaagggc gagatcaagc agaggctgaa
+      541 gctgaaggac ggcggccact acgacgctga ggtcaagacc acctacaagg ccaagaagcc
+      601 cgtgctgctg cccggcgcct acaacgtcaa catcaagatg gacatcacct cccacaacga
+      661 ggactacacc atcgttgaac agtgcgaacg cgccgagggc caccattcca ccggcggcat
+      721 ggacgagctg tacaagtaac tcgagtggct gagaccagac caataaaaaa cgcccggcgg
+      781 caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac
+      841 aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat cgcagtactg
+      901 ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg
+      961 aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac
+     1021 gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca
+     1081 gggattggct gaaacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt
+     1141 ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg
+     1201 gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg
+     1261 gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg
+     1321 agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt
+     1381 ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg
+     1441 agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt
+     1501 ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa
+     1561 ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac
+     1621 gtgcccgatc aatcatgacc aaaatccctt aacgtgagtt ttcgttccac tgagcgtcag
+     1681 accccgtaga aaagatcaaa ggatcttctt gagatccttt ttttctgcgc gtaatctgct
+     1741 gcttgcaaac aaaaaaacca ccgctaccag cggtggtttg tttgccggat caagagctac
+     1801 caactctttt tccgaaggta actggcttca gcagagcgca gataccaaat actgttcttc
+     1861 tagtgtagcc gtagttaggc caccacttca agaactctgt agcaccgcct acatacctcg
+     1921 ctctgctaat cctgttacca gtggctgctg ccagtggcga taagtcgtgt cttaccgggt
+     1981 tggactcaag acgatagtta ccggataagg cgcagcggtc gggctgaacg gggggttcgt
+     2041 gcacacagcc cagcttggag cgaacgacct acaccgaact gagataccta cagcgtgagc
+     2101 tatgagaaag cgccacgctt cccgaaggga gaaaggcgga caggtatccg gtaagcggca
+     2161 gggtcggaac aggagagcgc acgagggagc ttccaggggg aaacgcctgg tatctttata
+     2221 gtcctgtcgg gtttcgccac ctctgacttg agcgtcgatt tttgtgatgc tcgtcagggg
+     2281 ggcggagcct atggaaaaac gccagcaacg cggccttttt acggttcctg gccttttgct
+     2341 ggccttttgc tcacatgttc tttcctgcgt tatcccctga ttctgtggat aaccgtag
+//

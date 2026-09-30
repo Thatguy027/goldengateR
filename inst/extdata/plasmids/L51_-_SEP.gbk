@@ -1,0 +1,114 @@
+LOCUS       L51_SEP                 2380 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L51 - SEP.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_AZPTD2Mk
+            URL:
+            https://benchling.com/briannahutchens/f/lib_EViQWMzm-plasmid-design/seq_AZPTD2Mk-l51-sep/edit
+            Folder: Plasmid design
+            Last modified: 2024-12-12T23:21:32.403420+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+     Synthetic_Const 701..1417
+                     /label="SEP"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     source          701..1417
+                     /label="source"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     CDS             701..1417
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK
+                     FICTTGKLPVPWPTLVTTFSYGVQCLTRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDG
+                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNDHQVYIMADKQKNGIKA
+                     NFKIRHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLFTTSTLSKDPNEKRDHMVLLE
+                     FVTAAGITHGMDELYK"
+     primer_bind     complement(1395..1417)
+                     /label="SEP reverse"
+                     /note="Benchling primer"
+                     /note="tcacttgtacagttcatccatgc"
+     terminator      complement(1435..1469)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#FFEF86"
+                     /ApEinfo_revcolor="#FFEF86"
+     CDS             complement(1543..2199)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(2200..2297)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="95.1"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgtctaagg gcgaggaact
+      721 gttcactggt gtggttccaa tcctggttga gctggacggc gatgtaaacg gtcacaagtt
+      781 cagcgttagc ggcgaaggtg agggcgacgc tacctacggt aaactgactc tgaagttcat
+      841 ctgcaccacc ggtaaactgc ctgttccgtg gccaactctg gtcaccacct tcagctacgg
+      901 tgttcagtgt ctgacccgct accctgatca catgaaacgc catgacttct tcaaaagcgc
+      961 gatgccggaa ggctatgttc aagaacgtac catctttttc aaggatgacg gcaattataa
+     1021 aactcgtgcc gaagtaaagt tcgaaggcga caccctggtt aaccgtattg aactgaaagg
+     1081 tattgatttc aaagaagatg gtaacattct gggtcacaaa ctggaatata actacaacga
+     1141 ccaccaggtt tacatcatgg cggataaaca gaaaaacggc atcaaagcta acttcaaaat
+     1201 ccgtcataac atcgaagacg gcggtgtgca gctggctgac cactaccagc agaacacccc
+     1261 gatcggtgat ggtccggttc tgctgccgga taatcactac ctgttcacca cgtctactct
+     1321 gtccaaagac ccgaacgaaa aacgtgatca catggtcctg ctggaattcg ttactgcagc
+     1381 aggtatcacc cacggcatgg atgaactgta caagtgaatc ctgagaccag accaataaaa
+     1441 aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga ggtcattact
+     1501 ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc cctgccactc
+     1561 atcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat cacaaacggc
+     1621 atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat aatatttgcc
+     1681 catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat caaaactggt
+     1741 gaaactcacc cagggattgg ctgaaacgaa aaacatattc tcaataaacc ctttagggaa
+     1801 ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta gaaactgccg
+     1861 gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt tcagtttgct catggaaaac
+     1921 ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca ttgccatacg
+     1981 aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg gataaaactt
+     2041 gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa cggtctggtt
+     2101 ataggtacat tgagcaactg actgaaatgc ctcaaaatgt tctttacgat gccattggga
+     2161 tatatcaacg gtggtatatc cagtgatttt tttctccatt ttagcttcct tagctcctga
+     2221 aaatctcgat aactcaaaaa atacgcccgg tagtgatctt atttcattat ggtgaaagtt
+     2281 ggaacctctt acgtgcccga tcaatcatga ccaaaatccc ttaacgtgag ttttcgttcc
+     2341 actgagcgtc agaccccgta gaaaagatca aaggatcttc
+//

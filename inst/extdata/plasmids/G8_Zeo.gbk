@@ -1,0 +1,102 @@
+LOCUS       G8_Zeo                  2626 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  G8_Zeo.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_f5afgHvP
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_f5afgHvP-g8_zeo/edit
+            Folder: amplified parts plasmids
+            Last modified: 2023-06-06T20:25:35.048335+00:00
+FEATURES             Location/Qualifiers
+     source          1..2626
+                     /label="source"
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     terminator      776..973
+                     /label="TEF terminator"
+                     /note="Ashbya gossypii TEF terminator"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     terminator      991..1025
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     CDS             complement(1096..1755)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     1670..1689
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+     rep_origin      1937..2525
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     primer_bind     2426..2445
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#F58A5E"
+                     /ApEinfo_revcolor="#F58A5E"
+ORIGIN
+        1 tcggtctcat acagtttagc ttgcctcgtc cccgccgggt cacccggcca gcgacatgga
+       61 ggcccagaat accctccttg acagtcttga cgtgcgcagc tcaggggcat gatgtgactg
+      121 tcgcccgtac atttagccca tacatcccca tgtataatca tttgcatcca tacattttga
+      181 tggccgcacg gcgcgaagca aaaattacgg ctcctcgctc cagacctgcg agcagggaaa
+      241 cgctcccctc acagacgcgt tgaattgtcc ccacgccgcg cccctgtaga gaaatataaa
+      301 aggttaggat ttgccactga ggttcttctt tcatatactt ccttttaaaa tcttgctagg
+      361 atacagttct cacatcacat ccgaacataa acaaaaatgg ctaaattaac atctgccgtt
+      421 cctgttttaa cagctaggga tgttgcaggt gctgtagagt tttggacaga taggttagga
+      481 ttctcaagag actttgttga ggacgatttt gctggtgttg tcagggatga cgttacttta
+      541 tttatctcag cagtccaaga tcaagttgtc cctgataata cattggcttg ggtctgggtc
+      601 aggggtttag atgaattata tgctgaatgg tcagaagttg tatctacaaa cttcagagat
+      661 gcttctggtc cagctatgac cgagattggt gaacagccat ggggtagaga atttgctttg
+      721 agagatccag ctggaaattg tgttcatttt gttgctgaag aacaagatta aagtaactga
+      781 caataaaaag attcttgttt tcaagaactt gtcatttgta tagttttttt atattgtagt
+      841 tgttctattt taatcaaatg ttagcgtgat ttatattttt tttcgcctcg acatcatctg
+      901 cccagatgcg aagttaagtg cgcagaaagt aatatcatgc gtcaatcgta tgtgaatgct
+      961 ggtcgctata ctggagttga gaccagacca ataaaaaacg cccggcggca accgagcgtt
+     1021 ctgaacaaat ccagatggag ttctgaggtc attactggat ctatcaacag gagtccaagc
+     1081 gagctcgata tcaaattacg ccccgccctg ccactcatcg cagtactgtt gtaattcatt
+     1141 aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa tcgccagcgg
+     1201 catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa
+     1261 gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga
+     1321 aacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt caccgtaaca
+     1381 cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca
+     1441 gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt gaacactatc
+     1501 ccatatcacc agctcaccgt ctttcattgc catacgaaat tccggatgag cattcatcag
+     1561 gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct ttacggtctt
+     1621 taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag caactgactg
+     1681 aaatgcctca aaatgttctt tacgatgcca ttgggatata tcaacggtgg tatatccagt
+     1741 gatttttttc tccattttag cttccttagc tcctgaaaat ctcgataact caaaaaatac
+     1801 gcccggtagt gatcttattt cattatggtg aaagttggaa cctcttacgt gcccgatcaa
+     1861 tcatgaccaa aatcccttaa cgtgagtttt cgttccactg agcgtcagac cccgtagaaa
+     1921 agatcaaagg atcttcttga gatccttttt ttctgcgcgt aatctgctgc ttgcaaacaa
+     1981 aaaaaccacc gctaccagcg gtggtttgtt tgccggatca agagctacca actctttttc
+     2041 cgaaggtaac tggcttcagc agagcgcaga taccaaatac tgttcttcta gtgtagccgt
+     2101 agttaggcca ccacttcaag aactctgtag caccgcctac atacctcgct ctgctaatcc
+     2161 tgttaccagt ggctgctgcc agtggcgata agtcgtgtct taccgggttg gactcaagac
+     2221 gatagttacc ggataaggcg cagcggtcgg gctgaacggg gggttcgtgc acacagccca
+     2281 gcttggagcg aacgacctac accgaactga gatacctaca gcgtgagcta tgagaaagcg
+     2341 ccacgcttcc cgaagggaga aaggcggaca ggtatccggt aagcggcagg gtcggaacag
+     2401 gagagcgcac gagggagctt ccagggggaa acgcctggta tctttatagt cctgtcgggt
+     2461 ttcgccacct ctgacttgag cgtcgatttt tgtgatgctc gtcagggggg cggagcctat
+     2521 ggaaaaacgc cagcaacgcg gcctttttac ggttcctggc cttttgctgg ccttttgctc
+     2581 acatgttctt tcctgcgtta tcccctgatt ctgtggataa ccgtag
+//

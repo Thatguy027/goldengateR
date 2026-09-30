@@ -1,0 +1,172 @@
+LOCUS       L129_CAN1_TEF           4356 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L129_CAN1-TEF.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_0HcrtCyeEH
+            URL:
+            https://benchling.com/curtisliu/f/lib_Dk6z12Gw-temp-sequences/seq_0HcrtCyeEH-l129_can1-tef/edit
+            Folder: temp sequences
+            Last modified: 2026-04-13T18:13:47.980182+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="99.8"
+                     /match_length="99.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /description="high-copy-number ColE1/pMB1/pBR322/pUC
+                     originof replication"
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+     promoter        717..1383
+                     /label="GAP promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="promoter"
+                     /description="S. cerevisiae TDH3; promoter
+                     forglyceraldehyde-3-phosphate dehydrogenase"
+                     /ApEinfo_fwdcolor="#B7E6D7"
+                     /ApEinfo_revcolor="#B7E6D7"
+     CDS             1390..3159
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MTNSKEDADIEEKHMYNEPVTTLFHDVEASQTHHRRGSIPLKDEK
+                     SKELYPLRSFPTRVNGEDTFSMEDGIGDEDEGEVQNAEVKRELKQRHIGMIALGGTIGT
+                     GLFIGLSTPLTNAGPVGALISYLFMGSLAYSVTQSLGEMATFIPVTSSFTVFSQRFLSP
+                     AFGAANGYMYWFSWAITFALELSVVGQVIQFWTYKVPLAAWISIFWVIITIMNLFPVKY
+                     YGEFEFWVASIKVLAIIGFLIYCFCMVCGAGVTGPVGFRYWRNPGAWGPGIISKDKNEG
+                     RFLGWVSSLINAAFTFQGTELVGITAGEAANPRKSVPRAIKKVVFRILTFYIGSLLFIG
+                     LLVPYNDPKLTQSTSYVSTSPFIIAIENSGTKVLPHIFNAVILTTIISAANSNIYVGSR
+                     ILFGLSKNKLAPKFLSRTTKGGVPYIAVFVTAAFGALAYMETSTGGDKVFEWLLNITGV
+                     AGFFAWLFISISHIRFMQALKYRGISRDELPFKAKLMPGLAYYAATFMTIIIIIQGFTA
+                     FAPKFNGVSFAAAYISIFLFLAVWILFQCIFRCRFIWKIGDVDIDSDRRDIEAIVWEDH
+                     EPKTFWDKFWNVVA"
+     terminator      3169..3356
+                     /label="ADH1 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /description="S. cerevisiae ADH1; transcription
+                     terminatorfor the S. cerevisiae alcohol dehydrogenase 1
+                     (ADH1) gene"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     terminator      complement(3411..3445)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /description="minimal transcription terminator from
+                     phagelambda (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     CDS             complement(3519..4175)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     promoter        complement(4176..4273)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="95.1"
+                     /fragment="False"
+                     /other="promoter"
+                     /description="promoter of the E. coli cat gene
+                     encodingchloramphenicol acetyltransferase"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcag ctgcagttcg agtttatcat
+      721 tatcaatact gccatttcaa agaatacgta aataattaat agtagtgatt ttcctaactt
+      781 tatttagtca aaaaattagc cttttaattc tgctgtaacc cgtacatgcc caaaataggg
+      841 ggcgggttac acagaatata taacatcgta ggtgtctggg tgaacagttt attcctggca
+      901 tccactaaat ataatggagc ccgcttttta agctggcatc cagaaaaaaa aagaatccca
+      961 gcaccaaaat attgttttct tcaccaacca tcagttcata ggtccattct cttagcgcaa
+     1021 ctacagagaa caggggcaca aacaggcaaa aaacgggcac aacctcaatg gagtgatgca
+     1081 acctgcctgg agtaaatgat gacacaaggc aattgaccca cgcatgtatc tatctcattt
+     1141 tcttacacct tctattacct tctgctctct ctgatttgga aaaagctgaa aaaaaaggtt
+     1201 gaaaccagtt ccctgaaatt attcccctac ttgactaata agtatataaa gacggtaggt
+     1261 attgattgta attctgtaaa tctatttctt aaacttctta aattctactt ttatagttag
+     1321 tctttttttt agttttaaaa caccaagaac ttagtttcga ataaacacac ataaacaaac
+     1381 aaaagatcta tgactaactc taaggaggat gctgatatcg aagaaaaaca catgtataac
+     1441 gaaccagtta ctactctatt ccatgatgtc gaggcctctc agactcatca tcgtagaggt
+     1501 tctatccctc taaaggacga aaagtctaag gagctatacc ctctacgttc ctttccaact
+     1561 cgtgttaacg gtgaagatac tttttccatg gaagatggta tcggcgacga ggacgagggt
+     1621 gaggttcaaa atgccgaggt taaacgtgaa ctaaaacagc gtcacatcgg catgatcgct
+     1681 ctaggcggca ccatcggcac tggcctattt atcggcctat ctactccact aactaatgct
+     1741 ggtcctgttg gtgccctaat ctcttaccta ttcatgggct ccctagctta ctccgttact
+     1801 caatctctag gcgagatggc cacttttatt ccagtcactt cttcctttac tgtattttct
+     1861 cagcgttttc tatcccctgc tttcggcgct gctaacggct atatgtactg gttctcctgg
+     1921 gctattacct tcgctctaga gctatctgtt gtcggtcagg ttatccagtt ctggacttat
+     1981 aaggtccctc tagctgcttg gatctctatc ttctgggtta tcattactat catgaatcta
+     2041 tttccagtta agtactatgg cgagtttgaa ttttgggttg cctctattaa ggtcctagct
+     2101 atcattggtt tcttgatcta ttgcttctgc atggtctgcg gcgccggtgt cactggtcct
+     2161 gtcggtttta gatactggcg taatcctggc gcttggggcc ctggcatcat ctccaaagac
+     2221 aagaatgagg gtcgttttct aggctgggta tcttccctaa tcaatgccgc ttttactttc
+     2281 cagggcaccg agttggtcgg cattaccgcc ggcgaggccg ctaatccacg taagtctgtc
+     2341 cctcgtgcta ttaagaaggt cgtatttaga attctaactt tttatatcgg ttccttgcta
+     2401 tttatcggtc tactagtccc ttataacgat ccaaagttga ctcagtccac ctcttatgtc
+     2461 tccacctccc cattcatcat cgccatcgaa aattccggca ctaaagtcct acctcacatt
+     2521 tttaatgccg tcattctaac tactatcatc tccgctgcta actctaacat ctatgtcggc
+     2581 tctagaatcc tattcggctt gtctaaaaat aaactagccc caaagtttct atctcgtact
+     2641 actaagggcg gcgtccctta tatcgctgta tttgtcaccg ccgctttcgg tgccctagcc
+     2701 tatatggaaa cttccaccgg cggcgataag gtatttgagt ggttgctaaa cattaccggc
+     2761 gtcgctggtt tcttcgcttg gctattcatt tctatttctc atattcgttt catgcaggcc
+     2821 ctaaagtata gaggtatttc ccgcgatgaa ctacctttca aggccaagct aatgccaggt
+     2881 ctagcctact acgctgctac tttcatgact attatcatta tcatccaggg ctttactgcc
+     2941 ttcgctccta agtttaacgg cgtcagtttc gccgctgctt acatttccat ctttctattt
+     3001 ctagccgtct ggattctatt ccagtgtatc tttcgttgtc gtttcatctg gaaaatcggt
+     3061 gacgttgata ttgactctga ccgtcgtgat atcgaagcta tcgtttggga ggaccacgag
+     3121 cctaaaacct tctgggataa gttctggaac gtcgttgctt aactcgaggc gaatttctta
+     3181 tgatttatga tttttattat taaataagtt ataaaaaaaa taagtgtata caaattttaa
+     3241 agtgactctt aggttttaaa acgaaaattc ttattcttga gtaactcttt cctgtaggtc
+     3301 aggttgcttt ctcaggtata gcatgaggtc gctcttattg accacacctc taccggcatg
+     3361 ccgagcaaat gcctgcaaat cgctccccat ttctacatga gaccagacca ataaaaaacg
+     3421 cccggcggca accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat
+     3481 ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg
+     3541 cagtactgtt gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga
+     3601 tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg
+     3661 gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa
+     3721 ctcacccagg gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag
+     3781 gccaggtttt caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa
+     3841 tcgtcgtggt attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg
+     3901 taacaagggt gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat
+     3961 tccggatgag cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc
+     4021 ttatttttct ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag
+     4081 gtacattgag caactgactg aaatgcctca aaatgttctt tacgatgcca ttgggatata
+     4141 tcaacggtgg tatatccagt gatttttttc tccattttag cttccttagc tcctgaaaat
+     4201 ctcgataact caaaaaatac gcccggtagt gatcttattt cattatggtg aaagttggaa
+     4261 cctcttacgt gcccgatcaa tcatgaccaa aatcccttaa cgtgagtttt cgttccactg
+     4321 agcgtcagac cccgtagaaa agatcaaagg atcttc
+//

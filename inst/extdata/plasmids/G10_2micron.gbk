@@ -1,0 +1,74 @@
+LOCUS       G10_2micron             2667 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  G10_2micron.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_hK0XKM78
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_hK0XKM78-g10_2micron/edit
+            Folder: amplified parts plasmids
+            Last modified: 2026-08-12T20:47:51.799890+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..589
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#F58A5E"
+                     /ApEinfo_revcolor="#F58A5E"
+     misc_feature    704..1686
+                     /label="2micron Ori"
+                     /ApEinfo_fwdcolor="#FAAC61"
+                     /ApEinfo_revcolor="#FAAC61"
+     misc_feature    1827..2486
+                     /label="CmR"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcag agtaacgaag catctgtgct
+      721 tcattttgta gaacaaaaat gcaacgcgag agcgctaatt tttcaaacaa agaatctgag
+      781 ctgcattttt acagaacaga aatgcaacgc gaaagcgcta ttttaccaac gaagaatctg
+      841 tgcttcattt ttgtaaaaca aaaatgcaac gcgagagcgc taatttttca aacaaagaat
+      901 ctgagctgca tttttacaga acagaaatgc aacgcgagag cgctatttta ccaacaaaga
+      961 atctatactt cttttttgtt ctacaaaaat gcatcccgag agcgctattt ttctaacaaa
+     1021 gcatcttaga ttactttttt tctcctttgt gcgctctata atgcagtctc ttgataactt
+     1081 tttgcactgt aggtccgtta aggttagaag aaggctactt tggtgtctat tttctcttcc
+     1141 ataaaaaaag cctgactcca cttcccgcgt ttactgatta ctagcgaagc tgcgggtgca
+     1201 ttttttcaag ataaaggcat ccccgattat attctatacc gatgtggatt gcgcatactt
+     1261 tgtgaacaga aagtgatagc gttgatgatt cttcattggt cagaaaatta tgaacggttt
+     1321 cttctatttt gtctctatat actacgtata ggaaatgttt acattttcgt attgttttcg
+     1381 attcactcta tgaatagttc ttactacaat ttttttgtct aaagagtaat actagagata
+     1441 aacataaaaa atgtagaggt cgagtttaga tgcaagttca aggagcgaaa ggtggatggg
+     1501 taggttatat agggatatag cacagagata tatagcaaag agatactttt gagcaatgtt
+     1561 tgtggaagcg gtattcgcaa tattttagta gctcgttaca gtccggtgcg tttttggttt
+     1621 tttgaaagtg cgtcatcaga gcgcttttgg ttttcaaaag cgctctgaag ttcctatact
+     1681 ttctagctag agaataggaa cttcccgatg agaccagacc aataaaaaac gcccggcggc
+     1741 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
+     1801 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt
+     1861 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
+     1921 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
+     1981 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
+     2041 ggattggctg aaacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     2101 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
+     2161 tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     2221 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
+     2281 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
+     2341 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
+     2401 gcaactgact gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg
+     2461 gtatatccag tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac
+     2521 tcaaaaaata cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg
+     2581 tgcccgatca atcatgacca aaatccctta acgtgagttt tcgttccact gagcgtcaga
+     2641 ccccgtagaa aagatcaaag gatcttc
+//

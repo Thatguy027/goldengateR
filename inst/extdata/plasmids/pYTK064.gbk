@@ -1,0 +1,85 @@
+LOCUS       pYTK064                 1891 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  pYTK064.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_ByFgCGu0
+            URL:
+            https://benchling.com/bruni/f/lib_Fr8Qdka8-plasmids/seq_ByFgCGu0-pytk064/edit
+            Folder: Plasmids
+            Last modified: 2024-10-24T17:25:50.136174+00:00
+FEATURES             Location/Qualifiers
+     protein_bind    3..8
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     protein_bind    10..13
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     terminator      14..238
+                     /label="ScPGK1 Terminator"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     protein_bind    complement(239..242)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     protein_bind    complement(244..249)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     terminator      complement(252..360)
+                     /label="CamR Terminator"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     CDS             complement(361..1020)
+                     /label="CamR"
+                     /ApEinfo_fwdcolor="#0000ff"
+                     /ApEinfo_revcolor="#0000ff"
+     promoter        complement(1021..1125)
+                     /label="CamR Promoter"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     rep_origin      complement(1126..1889)
+                     /label="ColE1"
+                     /ApEinfo_fwdcolor="#7f7f7f"
+                     /ApEinfo_revcolor="#7f7f7f"
+ORIGIN
+        1 tcggtctcct ggcattgaat tgaattgaaa tcgatagatc aatttttttc ttttctcttt
+       61 ccccatcctt tacgctaaaa taatagttta ttttattttt tgaatatttt ttatttatat
+      121 acgtatatat agactattat ttatctttta atgattatta agatttttat taaaaaaaaa
+      181 ttcgctcctc ttttaatgcc tttatgcagt ttttttttcc cattcgatat ttctatgtgc
+      241 tgtgagacca gaccaataaa aaacgcccgg cggcaaccga gcgttctgaa caaatccaga
+      301 tggagttctg aggtcattac tggatctatc aacaggagtc caagcgagct cgatatcaaa
+      361 ttacgccccg ccctgccact catcgcagta ctgttgtaat tcattaagca ttctgccgac
+      421 atggaagcca tcacaaacgg catgatgaac ctgaatcgcc agcggcatca gcaccttgtc
+      481 gccttgcgta taatatttgc ccatggtgaa aacgggggcg aagaagttgt ccatattggc
+      541 cacgtttaaa tcaaaactgg tgaaactcac ccagggattg gctgaaacga aaaacatatt
+      601 ctcaataaac cctttaggga aataggccag gttttcaccg taacacgcca catcttgcga
+      661 atatatgtgt agaaactgcc ggaaatcgtc gtggtattca ctccagagcg atgaaaacgt
+      721 ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca ctatcccata tcaccagctc
+      781 accgtctttc attgccatac gaaattccgg atgagcattc atcaggcggg caagaatgtg
+      841 aataaaggcc ggataaaact tgtgcttatt tttctttacg gtctttaaaa aggccgtaat
+      901 atccagctga acggtctggt tataggtaca ttgagcaact gactgaaatg cctcaaaatg
+      961 ttctttacga tgccattggg atatatcaac ggtggtatat ccagtgattt ttttctccat
+     1021 tttagcttcc ttagctcctg aaaatctcga taactcaaaa aatacgcccg gtagtgatct
+     1081 tatttcatta tggtgaaagt tggaacctct tacgtgcccg atcaatcatg accaaaatcc
+     1141 cttaacgtga gttttcgttc cactgagcgt cagaccccgt agaaaagatc aaaggatctt
+     1201 cttgagatcc tttttttctg cgcgtaatct gctgcttgca aacaaaaaaa ccaccgctac
+     1261 cagcggtggt ttgtttgccg gatcaagagc taccaactct ttttccgaag gtaactggct
+     1321 tcagcagagc gcagatacca aatactgttc ttctagtgta gccgtagtta ggccaccact
+     1381 tcaagaactc tgtagcaccg cctacatacc tcgctctgct aatcctgtta ccagtggctg
+     1441 ctgccagtgg cgataagtcg tgtcttaccg ggttggactc aagacgatag ttaccggata
+     1501 aggcgcagcg gtcgggctga acggggggtt cgtgcacaca gcccagcttg gagcgaacga
+     1561 cctacaccga actgagatac ctacagcgtg agctatgaga aagcgccacg cttcccgaag
+     1621 ggagaaaggc ggacaggtat ccggtaagcg gcagggtcgg aacaggagag cgcacgaggg
+     1681 agcttccagg gggaaacgcc tggtatcttt atagtcctgt cgggtttcgc cacctctgac
+     1741 ttgagcgtcg atttttgtga tgctcgtcag gggggcggag cctatggaaa aacgccagca
+     1801 acgcggcctt tttacggttc ctggcctttt gctggccttt tgctcacatg ttctttcctg
+     1861 cgttatcccc tgattctgtg gataaccgta g
+//

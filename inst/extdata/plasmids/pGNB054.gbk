@@ -1,0 +1,109 @@
+LOCUS       pGNB054                 2374 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  pGNB054.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_Qa1GCcoJ
+            URL:
+            https://benchling.com/bruni/f/lib_Fr8Qdka8-plasmids/seq_Qa1GCcoJ-pgnb054/edit
+            Folder: Plasmids
+            Last modified: 2024-10-31T18:47:58.179486+00:00
+FEATURES             Location/Qualifiers
+     protein_bind    4..9
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     CDS             12..722
+                     /label="Fast-FT"
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+     primer_bind     complement(157..175)
+                     /label="mCherry-R"
+                     /ApEinfo_fwdcolor="#D6B295"
+                     /ApEinfo_revcolor="#D6B295"
+     primer_bind     complement(158..175)
+                     /label="rGNB072"
+                     /note="Benchling primer"
+                     /note="ttggtcaccttcagcttg"
+     primer_bind     425..444
+                     /label="mCherry-F"
+                     /ApEinfo_fwdcolor="#D6B295"
+                     /ApEinfo_revcolor="#D6B295"
+     protein_bind    complement(728..733)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     terminator      complement(736..844)
+                     /label="CamR Terminator"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     primer_bind     complement(819..841)
+                     /label="rGNB166"
+                     /note="Benchling primer"
+                     /note="gatatcgagctcgcttggactcc"
+     CDS             complement(845..1504)
+                     /label="CamR"
+                     /ApEinfo_fwdcolor="#0000ff"
+                     /ApEinfo_revcolor="#0000ff"
+     promoter        complement(1505..1609)
+                     /label="CamR Promoter"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     rep_origin      complement(1610..2373)
+                     /label="ColE1"
+                     /ApEinfo_fwdcolor="#7f7f7f"
+                     /ApEinfo_revcolor="#7f7f7f"
+     primer_bind     2175..2194
+                     /label="rGNB082"
+                     /note="Benchling primer"
+                     /note="gggaaacgcctggtatcttt"
+     primer_bind     2231..2255
+                     /label="rGNB165"
+                     /note="Benchling primer"
+                     /note="gtcgatttttgtgatgctcgtcagg"
+ORIGIN
+        1 gtcggtctca tatggtgagc aagggcgagg aggataacat ggccatcatc aaagagttca
+       61 tgcgtttcaa agtgcacgtg gagggttccg tgaacggcca cgagttcgag atcgagggcg
+      121 agggcaaggg ccgcccctac gagggcaccc agaccgccaa gctgaaggtg accaagggtg
+      181 gccccctgcc cttcgcctgg gacatcctgt cccctcagtt catgtacggc tccagggcct
+      241 acgtgaagca tcccgccgac atccccgact actggaagct gtccttcccc gagggcttca
+      301 agtgggagcg cgtgatgaac ttcgaggacg gcggcgtggt gaccgtgacc caggactcct
+      361 ccctgcagga cggcgagttc atctacaagg tgaagctgcg cggaactaac ttcccctccg
+      421 acggccccgt aatgcagaag aagaccatgg gctgggaggc ctccaccgag cggatgtacc
+      481 ccgaggacgg cgccctgaag ggcgagatca agcagaggct gaagctgaag gacggcggcc
+      541 actacgacgc tgaggtcaag accacctaca aggccaagaa gcccgtgcag ctgcccggcg
+      601 cctacaacgt caatatcaag ttggacatca catcccacaa cgaggactac accatcgtgg
+      661 aacagtacga acgctccgag ggccgccact ccaccggcgg catggacgag ctgtacaagt
+      721 aaatcctgag accagaccaa taaaaaacgc ccggcggcaa ccgagcgttc tgaacaaatc
+      781 cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg agctcgatat
+      841 caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta agcattctgc
+      901 cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc atcagcacct
+      961 tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag ttgtccatat
+     1021 tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgaa acgaaaaaca
+     1081 tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac gccacatctt
+     1141 gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag agcgatgaaa
+     1201 acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc catatcacca
+     1261 gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg cgggcaagaa
+     1321 tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt aaaaaggccg
+     1381 taatatccag ctgaacggtc tggttatagg tacattgagc aactgactga aatgcctcaa
+     1441 aatgttcttt acgatgccat tgggatatat caacggtggt atatccagtg atttttttct
+     1501 ccattttagc ttccttagct cctgaaaatc tcgataactc aaaaaatacg cccggtagtg
+     1561 atcttatttc attatggtga aagttggaac ctcttacgtg cccgatcaat catgaccaaa
+     1621 atcccttaac gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga
+     1681 tcttcttgag atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg
+     1741 ctaccagcgg tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact
+     1801 ggcttcagca gagcgcagat accaaatact gttcttctag tgtagccgta gttaggccac
+     1861 cacttcaaga actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg
+     1921 gctgctgcca gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg
+     1981 gataaggcgc agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga
+     2041 acgacctaca ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc
+     2101 gaagggagaa aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg
+     2161 agggagcttc cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc
+     2221 tgacttgagc gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc
+     2281 agcaacgcgg cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt
+     2341 cctgcgttat cccctgattc tgtggataac cgta
+//

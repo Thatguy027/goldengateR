@@ -1,0 +1,101 @@
+LOCUS       L5_His3_expressi        2326 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L5_His3 expression_type3.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_1k8cjTsQ
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_1k8cjTsQ-l5_his3-expression_type3/edit
+            Folder: amplified parts plasmids
+            Last modified: 2024-07-22T22:13:55.090488+00:00
+FEATURES             Location/Qualifiers
+     rep_origin      1..589
+                     /label="ori"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     misc_feature    701..1363
+                     /label="His3"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     CDS             701..1363
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
+                     QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
+                     KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
+                     LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
+     terminator      complement(1377..1465)
+                     /label="lambda t0 terminator"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="94.68085106382979"
+                     /fragment="True"
+                     /other="terminator"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     misc_feature    complement(1486..2145)
+                     /label="CmR"
+                     /ApEinfo_fwdcolor="#85DAE9"
+                     /ApEinfo_revcolor="#85DAE9"
+     promoter        complement(2146..2243)
+                     /label="cat promoter"
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="96.07843137254902"
+                     /fragment="False"
+                     /other="promoter"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgacagagc agaaagccct
+      721 agtaaagcgt attacaaatg aaaccaagat tcagattgcg atctctttaa agggtggtcc
+      781 cctagcgata gagcactcga tcttcccaga aaaagaggca gaagcagtag cagaacaggc
+      841 cacacaatcg caagtgatta acgtccacac aggtataggg tttctggacc atatgataca
+      901 tgctctggcc aagcattccg gctggtcgct aatcgttgag tgcattggtg acttacacat
+      961 agacgaccat cacaccactg aggactgcgg gattgctctc ggtcaagctt ttaaagaggc
+     1021 cctaggggcc gtgcgtggag taaaaaggtt tggatcagga tttgcgcctt tggatgaggc
+     1081 actttccaga gcggtggttg atctttcgaa caggccgtac gcagttgtcg aacttggttt
+     1141 gcaaagggag aaagtaggtg atctctcttg cgagatgatc ccgcattttc ttgaaagctt
+     1201 tgcagaggct agcagaatta ccctccacgt tgattgtctg cgaggcaaga atgatcatca
+     1261 ccgtagtgag agtgcgttca aggctcttgc ggttgccata agagaagcca cctcgcccaa
+     1321 tggtaccaac gatgttccct ccaccaaagg tgttcttatg tagatcctga gaccagacca
+     1381 ataaaaaacg cccggcggca accgagcgtt ctgaacaaat ccagatggag ttctgaggtc
+     1441 attactggat ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg
+     1501 ccactcatcg cagtactgtt gtaattcatt aagcattctg ccgacatgga agccatcaca
+     1561 aacggcatga tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt gcgtataata
+     1621 tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa
+     1681 actggtgaaa ctcacccagg gattggctga aacgaaaaac atattctcaa taaacccttt
+     1741 agggaaatag gccaggtttt caccgtaaca cgccacatct tgcgaatata tgtgtagaaa
+     1801 ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa aacgtttcag tttgctcatg
+     1861 gaaaacggtg taacaagggt gaacactatc ccatatcacc agctcaccgt ctttcattgc
+     1921 catacgaaat tccggatgag cattcatcag gcgggcaaga atgtgaataa aggccggata
+     1981 aaacttgtgc ttatttttct ttacggtctt taaaaaggcc gtaatatcca gctgaacggt
+     2041 ctggttatag gtacattgag caactgactg aaatgcctca aaatgttctt tacgatgcca
+     2101 ttgggatata tcaacggtgg tatatccagt gatttttttc tccattttag cttccttagc
+     2161 tcctgaaaat ctcgataact caaaaaatac gcccggtagt gatcttattt cattatggtg
+     2221 aaagttggaa cctcttacgt gcccgatcaa tcatgaccaa aatcccttaa cgtgagtttt
+     2281 cgttccactg agcgtcagac cccgtagaaa agatcaaagg atcttc
+//

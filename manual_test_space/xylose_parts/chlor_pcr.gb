@@ -1,0 +1,58 @@
+LOCUS       chlor_pcr               1673 bp ds-DNA     circular     10-JUL-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    12..37
+                     /label="chlor_fwd"
+     terminator      25..59
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda (Scholtissek and Grosse, 1987)"
+     CDS             complement(130..789)
+                     /label="CmR"
+                     /note="confers resistance to chloramphenicol"
+                     /gene="cat"
+                     /product="chloramphenicol acetyltransferase"
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA*"
+     primer_bind     704..723
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+     rep_origin      971..1559
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+                     /direction="RIGHT"
+     primer_bind     1460..1479
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+     misc_feature    complement(1645..1669)
+                     /label="chlor_rev"
+     misc_feature    1663..1669
+                     /label="type6 bsai cutsite"
+ORIGIN
+        1 nnnnnnnccg atgagaccag accaataaaa aacgcccggc ggcaaccgag cgttctgaac
+       61 aaatccagat ggagttctga ggtcattact ggatctatca acaggagtcc aagcgagctc
+      121 gatatcaaat tacgccccgc cctgccactc atcgcagtac tgttgtaatt cattaagcat
+      181 tctgccgaca tggaagccat cacaaacggc atgatgaacc tgaatcgcca gcggcatcag
+      241 caccttgtcg ccttgcgtat aatatttgcc catggtgaaa acgggggcga agaagttgtc
+      301 catattggcc acgtttaaat caaaactggt gaaactcacc cagggattgg ctgaaacgaa
+      361 aaacatattc tcaataaacc ctttagggaa ataggccagg ttttcaccgt aacacgccac
+      421 atcttgcgaa tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagcga
+      481 tgaaaacgtt tcagtttgct catggaaaac ggtgtaacaa gggtgaacac tatcccatat
+      541 caccagctca ccgtctttca ttgccatacg aaattccgga tgagcattca tcaggcgggc
+      601 aagaatgtga ataaaggccg gataaaactt gtgcttattt ttctttacgg tctttaaaaa
+      661 ggccgtaata tccagctgaa cggtctggtt ataggtacat tgagcaactg actgaaatgc
+      721 ctcaaaatgt tctttacgat gccattggga tatatcaacg gtggtatatc cagtgatttt
+      781 tttctccatt ttagcttcct tagctcctga aaatctcgat aactcaaaaa atacgcccgg
+      841 tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga tcaatcatga
+      901 ccaaaatccc ttaacgtgag ttttcgttcc actgagcgtc agaccccgta gaaaagatca
+      961 aaggatcttc ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac
+     1021 caccgctacc agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg
+     1081 taactggctt cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag
+     1141 gccaccactt caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac
+     1201 cagtggctgc tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt
+     1261 taccggataa ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg
+     1321 agcgaacgac ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc
+     1381 ttcccgaagg gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc
+     1441 gcacgaggga gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc
+     1501 acctctgact tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa
+     1561 acgccagcaa cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt
+     1621 tctttcctgc gttatcccct gattctgtgg ataaccgtag tcggtctcac aat
+//

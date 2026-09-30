@@ -1,0 +1,69 @@
+LOCUS       HSP12_gene              1992 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  HSP12 gene.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_NSJgHmvh
+            URL:
+            https://benchling.com/casscamp21/f/lib_09WyubsB-bootcamp/seq_NSJgHmvh-hsp12-gene/edit
+            Folder: Bootcamp
+            Last modified: 2024-10-07T16:58:47.668548+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..588
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     CDS             701..1027
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MSDAGRKGFGEKASEALKPDSQKSYAEQGKEYITDKADKVAGKVQ
+                     PEDNKGVFQGVHDSAEKGKDNAEGQGESLADQARDYMGAAKSKLNDAVEYVSGRVHGEE
+                     DPTKK"
+     CDS             1030..1035
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="IL"
+     misc_feature    1152..1811
+                     /label="CmR (ChlorR)"
+                     /ApEinfo_fwdcolor="#C6C9D1"
+                     /ApEinfo_revcolor="#C6C9D1"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgtctgacg caggtaggaa
+      721 aggattcgga gaaaaagctt ctgaagcttt aaagccagat tcgcaaaaat catatgcgga
+      781 gcaaggtaag gaatacatta ctgacaaagc cgataaagtg gcaggcaagg ttcaacctga
+      841 agataataaa ggtgtttttc agggtgtaca tgacagtgct gaaaaaggca aagataatgc
+      901 tgaaggtcag ggggaaagcc tagcagacca agctagagat tacatgggag ccgcaaaatc
+      961 caagttgaac gatgccgtcg aatatgtttc aggtagagtc cacggggagg aggatcccac
+     1021 aaagaaggga tcctgagacc agaccaataa aaaacgcccg gcggcaaccg agcgttctga
+     1081 acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt ccaagcgagc
+     1141 tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa ttcattaagc
+     1201 attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc cagcggcatc
+     1261 agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc gaagaagttg
+     1321 tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgaaacg
+     1381 aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc gtaacacgcc
+     1441 acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagc
+     1501 gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac actatcccat
+     1561 atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt catcaggcgg
+     1621 gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac ggtctttaaa
+     1681 aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac tgactgaaat
+     1741 gcctcaaaat gttctttacg atgccattgg gatatatcaa cggtggtata tccagtgatt
+     1801 tttttctcca ttttagcttc cttagctcct gaaaatctcg ataactcaaa aaatacgccc
+     1861 ggtagtgatc ttatttcatt atggtgaaag ttggaacctc ttacgtgccc gatcaatcat
+     1921 gaccaaaatc ccttaacgtg agttttcgtt ccactgagcg tcagaccccg tagaaaagat
+     1981 caaaggatct tc
+//

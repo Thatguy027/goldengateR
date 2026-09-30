@@ -1,0 +1,128 @@
+LOCUS       L55_NoBBSI_L53_c        3010 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  L55_NoBBSI_L53_complete2micron.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_G1OX8KRN
+            URL:
+            https://benchling.com/smilefreak/f/lib_xioIZ0fL-complete-2u-no-bbsi/seq_G1OX8KRN-l55_nobbsi_l53_complete2micron/edit
+            Folder: Complete 2u no BBSI
+            Last modified: 2024-10-01T21:50:18.265302+00:00
+FEATURES             Location/Qualifiers
+     source          1..3010
+                     /label="source"
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /ApEinfo_fwdcolor="#B4ABAC"
+                     /ApEinfo_revcolor="#B4ABAC"
+     rep_origin      complement(14..1354)
+                     /label="2 micron origin"
+                     /ApEinfo_fwdcolor="#FF9CCD"
+                     /ApEinfo_revcolor="#FF9CCD"
+     misc_feature    361..374
+                     /label="a"
+                     /ApEinfo_fwdcolor="#F58A5E"
+                     /ApEinfo_revcolor="#F58A5E"
+     misc_recomb     361..394
+                     /label="FRT"
+                     /ApEinfo_fwdcolor="#C7B0E3"
+                     /ApEinfo_revcolor="#C7B0E3"
+     primer_bind     complement(394..414)
+                     /label="REV_2uNOBBSI"
+                     /note="Benchling primer"
+                     /note="ttggttttcaaaagcgctctg"
+     primer_bind     415..435
+                     /label="FWD_2uNOBBSI"
+                     /note="Benchling primer"
+                     /note="aagcgctctgGagacgcactt"
+     misc_feature    425
+                     /label="noBBSI"
+                     /ApEinfo_fwdcolor="#FFEF86"
+                     /ApEinfo_revcolor="#FFEF86"
+     terminator      1375..1409
+                     /label="lambda t0 terminator"
+                     /note="minimal transcription terminator from phage lambda
+                     (Scholtissek and Grosse, 1987)"
+                     /ApEinfo_fwdcolor="#D59687"
+                     /ApEinfo_revcolor="#D59687"
+     CDS             complement(1480..2139)
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFL
+                     KTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSS
+                     LWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANM
+                     DNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+     primer_bind     2054..2073
+                     /label="CAT-R"
+                     /note="Chloramphenicol resistance gene, reverse primer"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     rep_origin      2321..2909
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /direction=RIGHT
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+     primer_bind     2810..2829
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+                     /ApEinfo_fwdcolor="#D59687"
+                     /ApEinfo_revcolor="#D59687"
+ORIGIN
+        1 tcggtctcag agttgatcca atatcaaagg aaatgatagc attgaaggat gagactaatc
+       61 caattgagga gtggcagcat atagaacagc taaagggtag tgctgaagga agcatacgat
+      121 accccgcatg gaatgggata atatcacagg aggtactaga ctacctttca tcctacataa
+      181 atagacgcat ataagtacgc atttaagcat aaacacgcac tatgccgttc ttctcatgta
+      241 tatatatata caggcaacac gcagatatag gtgcgacgtg aacagtgagc tgtatgtgcg
+      301 cagctcgcgt tgcattttcg gaagcgctcg ttttcggaaa cgctttgaag ttcctattcc
+      361 gaagttccta ttctctagaa agtataggaa cttcagagcg cttttgaaaa ccaaaagcgc
+      421 tctggagacg cactttcaaa aaaccaaaaa cgcaccggac tgtaacgagc tactaaaata
+      481 ttgcgaatac cgcttccaca aacattgctc aaaagtatct ctttgctata tatctctgtg
+      541 ctatatccct atataaccta cccatccacc tttcgctcct tgaacttgca tctaaactcg
+      601 acctctacat tttttatgtt tatctctagt attactcttt agacaaaaaa attgtagtaa
+      661 gaactattca tagagtgaat cgaaaacaat acgaaaatgt aaacatttcc tatacgtagt
+      721 atatagagac aaaatagaag aaaccgttca taattttctg accaatgaag aatcatcaac
+      781 gctatcactt tctgttcaca aagtatgcgc aatccacatc ggtatagaat ataatcgggg
+      841 atgcctttat cttgaaaaaa tgcacccgca gcttcgctag taatcagtaa acgcgggaag
+      901 tggagtcagg ctttttttat ggaagagaaa atagacacca aagtagcctt cttctaacct
+      961 taacggacct acagtgcaaa aagttatcaa gagactgcat tatagagcgc acaaaggaga
+     1021 aaaaaagtaa tctaagatgc tttgttagaa aaatagcgct ctcgggatgc atttttgtag
+     1081 aacaaaaaag aagtatagat tctttgttgg taaaatagcg ctctcgcgtt gcatttctgt
+     1141 tctgtaaaaa tgcagctcag attctttgtt tgaaaaatta gcgctctcgc gttgcatttt
+     1201 tgttttacaa aaatgaagca cagattcttc gttggtaaaa tagcgctttc gcgttgcatt
+     1261 tctgttctgt aaaaatgcag ctcagattct ttgtttgaaa aattagcgct ctcgcgttgc
+     1321 atttttgttc tacaaaatga agcacagatg cttcgttccg atgagaccag accaataaaa
+     1381 aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga ggtcattact
+     1441 ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc cctgccactc
+     1501 atcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat cacaaacggc
+     1561 atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat aatatttgcc
+     1621 catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat caaaactggt
+     1681 gaaactcacc cagggattgg ctgaaacgaa aaacatattc tcaataaacc ctttagggaa
+     1741 ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta gaaactgccg
+     1801 gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt tcagtttgct catggaaaac
+     1861 ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca ttgccatacg
+     1921 aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg gataaaactt
+     1981 gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa cggtctggtt
+     2041 ataggtacat tgagcaactg actgaaatgc ctcaaaatgt tctttacgat gccattggga
+     2101 tatatcaacg gtggtatatc cagtgatttt tttctccatt ttagcttcct tagctcctga
+     2161 aaatctcgat aactcaaaaa atacgcccgg tagtgatctt atttcattat ggtgaaagtt
+     2221 ggaacctctt acgtgcccga tcaatcatga ccaaaatccc ttaacgtgag ttttcgttcc
+     2281 actgagcgtc agaccccgta gaaaagatca aaggatcttc ttgagatcct ttttttctgc
+     2341 gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc agcggtggtt tgtttgccgg
+     2401 atcaagagct accaactctt tttccgaagg taactggctt cagcagagcg cagataccaa
+     2461 atactgttct tctagtgtag ccgtagttag gccaccactt caagaactct gtagcaccgc
+     2521 ctacatacct cgctctgcta atcctgttac cagtggctgc tgccagtggc gataagtcgt
+     2581 gtcttaccgg gttggactca agacgatagt taccggataa ggcgcagcgg tcgggctgaa
+     2641 cggggggttc gtgcacacag cccagcttgg agcgaacgac ctacaccgaa ctgagatacc
+     2701 tacagcgtga gctatgagaa agcgccacgc ttcccgaagg gagaaaggcg gacaggtatc
+     2761 cggtaagcgg cagggtcgga acaggagagc gcacgaggga gcttccaggg ggaaacgcct
+     2821 ggtatcttta tagtcctgtc gggtttcgcc acctctgact tgagcgtcga tttttgtgat
+     2881 gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa cgcggccttt ttacggttcc
+     2941 tggccttttg ctggcctttt gctcacatgt tctttcctgc gttatcccct gattctgtgg
+     3001 ataaccgtag
+//

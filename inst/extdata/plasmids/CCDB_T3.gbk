@@ -1,0 +1,81 @@
+LOCUS       CCDB_T3                 2305 bp    ds-DNA  linear   SYN 29-SEP-2026
+DEFINITION  CCDB T3.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_S5oP9wQD5o
+            URL:
+            https://benchling.com/hhmarquez7/f/lib_SyJmOTaX6w-hm_projects/seq_S5oP9wQD5o-ccdb-t3/edit
+            Folder: HM_Projects
+            Last modified: 2026-04-21T17:48:35.022363+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..588
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     misc_feature    718..742
+                     /label="in fusion insert"
+                     /ApEinfo_fwdcolor="#B1FF67"
+                     /ApEinfo_revcolor="#B1FF67"
+     CDS             1083..1292
+                     /label="ccdB"
+                     /ApEinfo_fwdcolor="#FFEF86"
+                     /ApEinfo_revcolor="#FFEF86"
+     CDS             1083..1292
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="MVIPLASARLLSDKVSRELYPVVHIGDESWRMMTTDMASVPVSVI
+                     GEEVADLSHRENDIKNAINLMFWGI"
+     misc_feature    complement(1318..1335)
+                     /label="in fuision"
+                     /ApEinfo_fwdcolor="#84B0DC"
+                     /ApEinfo_revcolor="#84B0DC"
+     misc_feature    1465..2124
+                     /label="CmR (ChlorR)"
+                     /ApEinfo_fwdcolor="#C6C9D1"
+                     /ApEinfo_revcolor="#C6C9D1"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcat atgagagacg cttaaccaga
+      721 atatatactg atatgtatac ccgaagtatg tcaaaaagag gtatgctatg aagcagcgta
+      781 ttacagtgac agttgacagc gacagctatc agttgctcaa ggcatatatg atgtcaatat
+      841 ctccggtctg gtaagcacaa ccatgcagaa tgaagcccgt cgtcagcgtg ccgaacgctg
+      901 gaaagcggaa aatcaggaag ggatggctga ggtcgcccgg tttattgaaa tgaacggctc
+      961 ttttgctgac gagaacaggg gctggtgaaa tgcagtttaa ggtttacacc tataaaagag
+     1021 agagccgtta tcgtctgttt gtggatgtac agagtgatat tattgacacg cccgggcgac
+     1081 ggatggtgat ccccctggcc agtgcacgtc tgctgtcaga taaagtctcc cgtgaacttt
+     1141 acccggtggt gcatatcggg gatgaaagct ggcgcatgat gaccaccgat atggccagtg
+     1201 tgccggtatc cgttatcggg gaagaagtgg ctgatctcag ccaccgcgaa aatgacatca
+     1261 aaaacgccat taacctgatg ttctggggaa tataaatgtc aggctccctt atacacagcc
+     1321 agtctgcagg tcgaccgtct ccatcctgag accagaccaa taaaaaacgc ccggcggcaa
+     1381 ccgagcgttc tgaacaaatc cagatggagt tctgaggtca ttactggatc tatcaacagg
+     1441 agtccaagcg agctcgatat caaattacgc cccgccctgc cactcatcgc agtactgttg
+     1501 taattcatta agcattctgc cgacatggaa gccatcacaa acggcatgat gaacctgaat
+     1561 cgccagcggc atcagcacct tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg
+     1621 ggcgaagaag ttgtccatat tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg
+     1681 attggctgaa acgaaaaaca tattctcaat aaacccttta gggaaatagg ccaggttttc
+     1741 accgtaacac gccacatctt gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta
+     1801 ttcactccag agcgatgaaa acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg
+     1861 aacactatcc catatcacca gctcaccgtc tttcattgcc atacgaaatt ccggatgagc
+     1921 attcatcagg cgggcaagaa tgtgaataaa ggccggataa aacttgtgct tatttttctt
+     1981 tacggtcttt aaaaaggccg taatatccag ctgaacggtc tggttatagg tacattgagc
+     2041 aactgactga aatgcctcaa aatgttcttt acgatgccat tgggatatat caacggtggt
+     2101 atatccagtg atttttttct ccattttagc ttccttagct cctgaaaatc tcgataactc
+     2161 aaaaaatacg cccggtagtg atcttatttc attatggtga aagttggaac ctcttacgtg
+     2221 cccgatcaat catgaccaaa atcccttaac gtgagttttc gttccactga gcgtcagacc
+     2281 ccgtagaaaa gatcaaagga tcttc
+//

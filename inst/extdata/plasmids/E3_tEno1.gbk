@@ -1,0 +1,70 @@
+LOCUS       E3_tEno1                1900 bp    ds-DNA  circular SYN 29-SEP-2026
+DEFINITION  E3_tEno1.
+ACCESSION   
+VERSION     
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+COMMENT     Exported from Benchling
+            Benchling ID: seq_y28g7WRl
+            URL:
+            https://benchling.com/lcrisman/f/lib_dkccKGkI-amplified-parts-plasmids/seq_y28g7WRl-e3_teno1/edit
+            Folder: amplified parts plasmids
+            Last modified: 2025-10-29T18:57:32.498428+00:00
+FEATURES             Location/Qualifiers
+     misc_feature    1..588
+                     /label="Ori"
+                     /ApEinfo_fwdcolor="#F8D3A9"
+                     /ApEinfo_revcolor="#F8D3A9"
+     misc_feature    706..936
+                     /label="tENo1"
+                     /ApEinfo_fwdcolor="#9EAFD2"
+                     /ApEinfo_revcolor="#9EAFD2"
+     CDS             706..936
+                     /note="Benchling translation"
+                     /codon_start=1
+                     /translation="TRELLIKPSSPKNTFFCHLFHFLRIV*FIHFIVTNVL*FYIGLQT
+                     SIFHFMLKQFQVYLLFCLW*RVYPPALLVTHV"
+     misc_feature    955..988
+                     /label="Lambda t0 terminator"
+                     /ApEinfo_fwdcolor="#FFEF86"
+                     /ApEinfo_revcolor="#FFEF86"
+     misc_feature    1060..1719
+                     /label="CmR (ChlorR)"
+                     /ApEinfo_fwdcolor="#75C6A9"
+                     /ApEinfo_revcolor="#75C6A9"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtag tcggtctcaa tcctaactcg agagcttttg
+      721 attaagcctt ctagtccaaa aaacacgttt ttttgtcatt tatttcattt tcttagaata
+      781 gtttagttta ttcattttat agtcacgaat gttttatgat tctatatagg gttgcaaaca
+      841 agcatttttc attttatgtt aaaacaattt caggtttacc ttttattctg cttgtggtga
+      901 cgcgtgtatc cgcccgctct tttggtcacc catgtatgct gtgagaccag accaataaaa
+      961 aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga ggtcattact
+     1021 ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc cctgccactc
+     1081 atcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat cacaaacggc
+     1141 atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat aatatttgcc
+     1201 catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat caaaactggt
+     1261 gaaactcacc cagggattgg ctgaaacgaa aaacatattc tcaataaacc ctttagggaa
+     1321 ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta gaaactgccg
+     1381 gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt tcagtttgct catggaaaac
+     1441 ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca ttgccatacg
+     1501 aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg gataaaactt
+     1561 gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa cggtctggtt
+     1621 ataggtacat tgagcaactg actgaaatgc ctcaaaatgt tctttacgat gccattggga
+     1681 tatatcaacg gtggtatatc cagtgatttt tttctccatt ttagcttcct tagctcctga
+     1741 aaatctcgat aactcaaaaa atacgcccgg tagtgatctt atttcattat ggtgaaagtt
+     1801 ggaacctctt acgtgcccga tcaatcatga ccaaaatccc ttaacgtgag ttttcgttcc
+     1861 actgagcgtc agaccccgta gaaaagatca aaggatcttc
+//
