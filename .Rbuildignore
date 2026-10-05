@@ -1,0 +1,7 @@
+^LICENSE\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^_archive$
+^manual_test_space$
+^gui$
+^.*\.tsv$
