@@ -2,7 +2,7 @@ Package: goldengateR
 Type: Package
 Title: In Silico Golden Gate Assembly with BsaI and BsmBI
 Version: 0.1.0
-Authors@R: person("Stefan", "Lab", email = "you@example.com", role = c("aut", "cre"))
+Authors@R: person("Stefan", "Zdraljevic", email = "szdralje@g.ucla.edu", role = c("aut", "cre"))
 Description: Simulates Golden Gate assembly of plasmids and PCR products using
     the Type IIS restriction enzymes BsaI and BsmBI. Reads GenBank or FASTA
     inputs, digests each input at all enzyme sites, attempts to ligate the
